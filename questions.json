@@ -1,0 +1,212 @@
+[
+  {
+    "number": 1,
+    "question_cn": "这张海报主要解决什么问题？",
+    "question_en": "What is the main problem addressed in this work?",
+    "answer_cn": "我们关注PbS量子点短波红外探测器中的暗电流问题。仅看总暗电流，难以知道应该改善薄膜还是界面。海报先用多组分模型识别漏电分量，再通过PM6案例验证抑制目标，最后展示65 °C热旋涂如何在不增加缓冲层的情况下改善器件，并用于TFT成像和初步血糖传感。",
+    "answer_en": "We address dark current in PbS quantum-dot SWIR photodetectors. Total current alone does not identify which leakage pathway should be improved. We use component analysis to identify the targets, examine a PM6-buffered case to validate their suppression, and demonstrate a 65 °C thermal spin-coating route without an extra buffer layer. The improved films support TFT imaging and preliminary glucose sensing."
+  },
+  {
+    "number": 2,
+    "question_cn": "你们工作的核心创新是什么？",
+    "question_en": "What is the key innovation of your work?",
+    "answer_cn": "核心在于把电流诊断与成膜工艺联系起来，而不仅是报告一个更低的暗电流值。模型区分不同漏电分量，热旋涂则通过改善量子点成膜同步降低两种漏电，并保持简洁的器件叠层。成像与传感进一步展示了这种工艺改善的系统应用价值。",
+    "answer_en": "The central contribution is the connection between leakage diagnosis and film processing, rather than simply reporting a lower dark-current value. Component analysis distinguishes the leakage pathways, while thermal spin-coating improves film formation and suppresses both leakage terms without an additional buffer. Imaging and sensing demonstrate the system-level relevance of the process."
+  },
+  {
+    "number": 3,
+    "question_cn": "暗电流模型 PM6和热旋涂这三部分是怎么联系起来的？",
+    "question_en": "How are the dark-current model, the PM6 buffer, and thermal spin-coating connected?",
+    "answer_cn": "模型回答应该抑制哪些电流分量；PM6案例说明两种漏电可以同步下降；热旋涂回答能否只调整量子点成膜过程实现这一目标。因此，PM6在叙事中是验证环节，热旋涂是更简洁的工艺方案，最后再用同一分量分析框架检验工艺效果。",
+    "answer_en": "The model identifies which current components should be suppressed. The PM6 case shows that both leakage terms can decrease together. Thermal spin-coating then asks whether film formation alone can achieve that objective. PM6 therefore serves as a validation step, and the thermal process provides a simpler processing route whose effect is examined using the same component framework."
+  },
+  {
+    "number": 4,
+    "question_cn": "这几部分来自不同论文 为什么可以放在同一张海报里？",
+    "question_en": "These results come from different papers. What connects them into a coherent research story?",
+    "answer_cn": "它们围绕同一个器件问题展开，即如何理解并抑制暗电流。不同论文分别提供诊断方法、界面改性验证和工艺及应用证据。需要明确的是，IEEE论文中的PM6部分是对已发表器件数据的模型再分析，不能把所有参考实验都说成我们重新制备的同一批器件。",
+    "answer_en": "The studies address the same device problem: understanding and suppressing dark current. They contribute a diagnostic framework, an interface-modification example, and process-to-application evidence. Importantly, the IEEE paper reanalyzes previously published device data, including the PM6 case. These examples should not be presented as one newly fabricated device batch."
+  },
+  {
+    "number": 5,
+    "question_cn": "你们是根据模型设计了热旋涂工艺 还是用模型解释实验结果？",
+    "question_en": "Did the model guide the design of thermal spin-coating, or was it used to interpret the experimental results?",
+    "answer_cn": "更准确地说，模型提供了漏电诊断框架，并用于解释和检验工艺改善。65 °C是实验优化得到的条件，不是模型直接预测的温度。海报将这几项工作联系为一个物理逻辑，但不意味着模型能自动给出热旋涂配方或最优工艺参数。",
+    "answer_en": "More precisely, the model provides a diagnostic framework and is used to interpret and test the process improvement. The 65 °C condition was selected experimentally; it was not directly predicted by the model. The poster connects the studies through a physical rationale, without implying that the model automatically generates the processing recipe."
+  },
+  {
+    "number": 6,
+    "question_cn": "为什么只比较某一个偏压下的暗电流不够？",
+    "question_en": "Why is comparing dark current at a single bias insufficient?",
+    "answer_cn": "不同电流分量可能在某个偏压处恰好给出相似的总电流，但在其他偏压下表现不同。M1/M2就是用来说明这一点的。完整J–V曲线同时包含偏压依赖和机制转换的信息，因此，比单点数值更适合判断漏电来源和器件改进方向。",
+    "answer_en": "Different component balances can produce similar total currents at one bias while giving different responses elsewhere. M1 and M2 illustrate this issue. A complete J–V curve contains information about bias dependence and changes in the dominant conduction process, so it is more informative than a single endpoint for diagnosing leakage."
+  },
+  {
+    "number": 7,
+    "question_cn": "总暗电流为什么要分成三个分量 它们分别代表什么？",
+    "question_en": "Why is the total dark current separated into three components, and what does each component represent?",
+    "answer_cn": "这里沿用多组分等效电路框架：主结电流描述结相关的二极管响应，欧姆分量描述近似线性的分流漏电，非欧姆分量描述非线性漏电，在这类量子点器件中常与陷阱相关输运联系。它是对实测电流的有效分解，不意味着所有微观输运过程都被唯一识别。",
+    "answer_en": "We use an established equivalent-circuit framework. The main-junction term describes diode-like junction transport, the Ohmic term represents approximately linear shunt leakage, and the non-Ohmic term describes nonlinear leakage often associated with trap-related transport in these devices. This is an effective decomposition of measured current, not a unique identification of every microscopic process."
+  },
+  {
+    "number": 8,
+    "question_cn": "欧姆漏电和非欧姆漏电的区别是什么？",
+    "question_en": "What is the difference between Ohmic and non-Ohmic leakage?",
+    "answer_cn": "欧姆漏电近似随内部电压线性变化，可用分流电阻描述，往往与薄膜不连续、针孔或局部分流通路有关。非欧姆漏电呈非线性变化，模型用幂律项表示，常用于描述陷阱相关的空间电荷限制输运。这里讨论的是有效电流特征，实际机制仍需要表征佐证。",
+    "answer_en": "Ohmic leakage varies approximately linearly with internal voltage and is represented by a shunt resistance. It can be associated with discontinuities or local shunt paths. Non-Ohmic leakage is nonlinear and is represented by a power-law term, often used for trap-related space-charge-limited transport. Independent characterization is still needed to support a microscopic interpretation."
+  },
+  {
+    "number": 9,
+    "question_cn": "怎样确定拟合分量是可靠的 而不是过拟合？",
+    "question_en": "How do you establish that the fitted components are reliable rather than the result of overfitting?",
+    "answer_cn": "IEEE工作结合正反偏分段拟合、Levenberg–Marquardt、信赖域和正则化，并比较改性趋势与已知表征。不过，残差小不等于参数唯一；初值、拟合窗口和参数相关性仍需检验，不能声称已排除全部非唯一性。",
+    "answer_en": "The IEEE work combines segmented fitting, Levenberg–Marquardt, trust-region methods, and regularization, and checks agreement with known modification effects. A small residual does not prove uniqueness. Initial conditions, fitting windows, and parameter correlations still require evaluation."
+  },
+  {
+    "number": 10,
+    "question_cn": "仅凭J–V拟合 能直接证明存在针孔或陷阱吗？",
+    "question_en": "Can J–V fitting alone prove the presence of pinholes or traps?",
+    "answer_cn": "不能。拟合能说明电流响应与某类输运特征相符，但不能直接拍到针孔，也不能单独确定陷阱的微观类型。更有说服力的解释来自电流分量与AFM、GISAXS、载流子动力学或界面表征的一致性。因此，我们把拟合作为诊断依据，而不是唯一的机制证据。",
+    "answer_en": "No. Fitting shows that the electrical response is consistent with a class of transport behavior, but it cannot directly image a pinhole or identify a specific trap species. A stronger interpretation comes from agreement with morphology, packing, carrier-dynamics, and interface measurements. We therefore treat fitting as diagnostic evidence rather than the sole proof of a mechanism."
+  },
+  {
+    "number": 11,
+    "question_cn": "M1/M2 N1/N2和25/65 °C器件分别是什么关系？",
+    "question_en": "How are the M1/M2, N1/N2, and 25/65 °C devices related?",
+    "answer_cn": "它们是不同论证环节中的不同样品组。M1/M2说明相近的单点总暗电流可能隐藏不同分量；N1/N2对应未加和加入PM6缓冲层的比较；25/65 °C对应热旋涂条件的比较。这些编号不能互换，也不能把不同组之间的数值当作完全相同条件下的直接排名。",
+    "answer_en": "They are separate sample groups serving different purposes. M1/M2 illustrate how similar single-bias currents can hide different component balances. N1/N2 compare devices without and with a PM6 buffer. The 25/65 °C pair compares spin-coating conditions. The labels are not interchangeable, and cross-group values should not be treated as a controlled head-to-head ranking."
+  },
+  {
+    "number": 12,
+    "question_cn": "模型适用于所有光电器件吗 网站需要输入哪些数据？",
+    "question_en": "Is this model applicable to all optoelectronic devices, and what data does the online tool require?",
+    "answer_cn": "它适合检验具有相应二极管及漏电特征的J–V数据，可以用于PD、LED或PV的电学分析，但并非所有器件和偏压范围都适用。需要提供电压与暗电流数据，并明确单位；若输入的是电流，还应知道器件面积。拟合前应排除限流、接触异常和测量饱和等问题，文件格式以网站界面为准。",
+    "answer_en": "The framework can be useful for electrical J–V analysis of PDs, LEDs, and PV devices when its transport assumptions are appropriate. It is not universal. Input data should include voltage and dark current with clear units, and device area when current density is required. Compliance limits, contact problems, and measurement saturation should be checked before fitting."
+  },
+  {
+    "number": 13,
+    "question_cn": "PM6是什么 为什么加入PM6后漏电会降低？",
+    "question_en": "What is PM6, and why does adding it reduce leakage?",
+    "answer_cn": "PM6是一种共轭聚合物，这个案例中用作PbS-EDT界面的超薄缓冲层。参考研究把它的作用与改善界面、覆盖局部不连续区域及降低陷阱相关输运联系起来。对该案例的模型再分析显示欧姆和非欧姆分量都下降；这一电学趋势与相关机制解释一致，但不能仅靠拟合完成微观证明。",
+    "answer_en": "PM6 is a conjugated polymer used here as an ultrathin buffer at the PbS-EDT interface. The reference studies associate it with improved interface quality, coverage of local discontinuities, and reduced trap-related transport. Reanalysis of the case shows lower Ohmic and non-Ohmic components, consistent with those interpretations, although fitting alone does not prove the microscopic mechanism."
+  },
+  {
+    "number": 14,
+    "question_cn": "既然PM6有效 为什么还要研究热旋涂？",
+    "question_en": "If PM6 is effective, why investigate thermal spin-coating?",
+    "answer_cn": "PM6说明两种漏电能够同步抑制，但也增加了一层材料和一道工序。热旋涂尝试直接改善量子点薄膜形成过程，从而在不新增这类缓冲层的情况下实现同样的抑制目标。这里强调的是工艺和叠层的简洁性，并不是说PM6方案无效或已经被证明与CMOS不兼容。",
+    "answer_en": "PM6 demonstrates joint suppression of the two leakage terms, but it adds a material layer and a processing step. Thermal spin-coating instead modifies QD film formation to reach the same suppression objective without that extra buffer. The motivation is a simpler stack and process; it does not imply that PM6 is ineffective or proven incompatible with CMOS."
+  },
+  {
+    "number": 15,
+    "question_cn": "PM6器件与热旋涂器件的结构不同 能直接比较吗？",
+    "question_en": "Can the PM6-buffered and thermally spin-coated devices be compared directly, given their different structures?",
+    "answer_cn": "不能据此作严格的跨体系性能排名。海报比较的是每种方案相对各自对照器件的变化，并用相同的电流分量语言解释结果。它们支持共同的漏电控制思路，但如果要判断哪种方案绝对更好，还需要统一器件结构、材料批次、面积和测量条件的实验。",
+    "answer_en": "Not as a strict cross-platform performance ranking. Each approach is compared with its own reference device, and the same component language is used to interpret the changes. The cases support a shared leakage-control rationale. A definitive ranking would require matched architectures, material batches, active areas, and measurement conditions."
+  },
+  {
+    "number": 16,
+    "question_cn": "热旋涂具体改变了什么 与旋涂后退火有什么区别？",
+    "question_en": "What does thermal spin-coating change, and how does it differ from annealing after deposition?",
+    "answer_cn": "区别在于加热发生在薄膜形成过程中。预热基底改变溶剂挥发和量子点堆积，使结构在沉积时就发生变化；后退火主要作用于已经形成的膜。论文工艺并不是取消后退火，而是在热旋涂之后仍进行85 °C、10 min的退火。因此，应强调改变成膜阶段，而不是声称仅有一个加热步骤。",
+    "answer_en": "Heating acts during film formation, changing solvent evaporation and QD packing while the film is deposited. Post-deposition annealing acts on an already formed film. Importantly, the reported thermal spin-coating process still includes subsequent annealing at 85 °C for 10 minutes. The distinction is control of the deposition stage, not the elimination of post-annealing."
+  },
+  {
+    "number": 17,
+    "question_cn": "为什么选择65 °C 温度更高是不是更好？",
+    "question_en": "Why was 65 °C selected? Would a higher temperature give better results?",
+    "answer_cn": "65 °C是在本研究材料和工艺条件下得到的优化结果，不是普适温度。适度升温有利于挥发和致密堆积，但温度继续升高可能带来更明显的堆积不均匀、团聚或局部融合，并引入额外电子态。所以，需要平衡成膜速度与薄膜均匀性，不能简单认为越热越好。",
+    "answer_en": "The 65 °C condition is an experimental optimum for this material and process, not a universal temperature. Moderate heating promotes evaporation and compact packing. Further heating can increase packing heterogeneity, aggregation, or partial fusion and introduce additional electronic states. The optimum therefore balances film-formation kinetics and uniformity rather than maximizing temperature."
+  },
+  {
+    "number": 18,
+    "question_cn": "为什么更致密但更无序的量子点堆积反而有利？",
+    "question_en": "Why can denser but more disordered quantum-dot packing be beneficial?",
+    "answer_cn": "这里的无序主要指量子点集合体的位置和堆积有序程度，并不等同于每颗量子点晶体被破坏。器件输运同时取决于点间接触、膜连续性和界面质量。适度致密化可以改善这些因素，即使长程堆积有序度下降也可能有利；但过度致密或融合仍可能损害性能。",
+    "answer_en": "Here, disorder refers mainly to the arrangement of the QD assembly, not necessarily damage to each QD crystal. Device transport also depends on inter-dot contacts, film continuity, and interface quality. Moderate densification can improve these factors even when long-range packing order decreases. Excessive compaction or fusion, however, can still be detrimental."
+  },
+  {
+    "number": 19,
+    "question_cn": "表面粗糙度降低 是否就能说明漏电一定降低？",
+    "question_en": "Does lower surface roughness necessarily imply lower leakage?",
+    "answer_cn": "不能。AFM主要反映表面形貌，不能单独判断薄膜内部的连通漏电通路、界面缺陷或接触注入。这里的粗糙度下降是辅助证据，需要结合堆积表征、完整J–V和分量拟合解释。也不应把粗糙度的相对变化直接等同于暗电流降幅，两者没有在海报中建立简单比例关系。",
+    "answer_en": "No. AFM primarily probes surface morphology and cannot alone resolve internal shunt connectivity, interface defects, or contact injection. The lower roughness is supporting evidence that should be considered alongside packing measurements and electrical decomposition. Its relative change should not be equated directly with the dark-current reduction; no simple proportional relationship is established here."
+  },
+  {
+    "number": 20,
+    "question_cn": "有什么证据说明热旋涂同时抑制了两种漏电分量？",
+    "question_en": "What evidence shows that thermal spin-coating suppresses both leakage components?",
+    "answer_cn": "海报Fig. 5使用同一分量分析框架比较25和65 °C器件。在−0.5 V下，欧姆分量由约312降至109 nA/cm²，非欧姆分量由64.4降至29.1 nA/cm²，对应约65%和55%的下降。这与薄膜和界面改善的解释一致，但仍应把它表述为拟合支持的电学证据。",
+    "answer_en": "Poster Fig. 5 compares the 25 and 65 °C devices using the same decomposition framework. At −0.5 V, the Ohmic component decreases from about 312 to 109 nA/cm², and the non-Ohmic component from 64.4 to 29.1 nA/cm², corresponding to approximately 65% and 55% reductions. These are fitting-supported electrical results consistent with improved film and interface quality."
+  },
+  {
+    "number": 21,
+    "question_cn": "热旋涂会不会影响量子点配体 能级或载流子输运？",
+    "question_en": "Does thermal spin-coating affect the ligands, energy levels, or charge transport?",
+    "answer_cn": "输运确实可能受到影响，因为点间耦合和界面接触随成膜改变。论文中光学表征和UPS表明整体光学性质及能级排列变化有限，因此不能简单把性能改善归因于大幅改变带隙。至于配体化学是否完全不变，需要专门化学表征支持，不能只根据电学结果作结论。",
+    "answer_en": "Transport can change because film formation affects inter-dot coupling and interfacial contacts. The reported optical and UPS measurements indicate limited changes in the overall optical properties and energy-level alignment, so a large bandgap change is not the main explanation. Whether the ligand chemistry is entirely unchanged would require dedicated chemical characterization, not electrical results alone."
+  },
+  {
+    "number": 22,
+    "question_cn": "这种工艺的重复性和大面积均匀性怎么样？",
+    "question_en": "How reproducible is the process, and how uniform are the films over larger areas?",
+    "answer_cn": "论文提供了器件统计和64 × 64阵列演示，支持该工艺在所研究器件和阵列尺度上的可行性。但这还不能等同于晶圆级均匀性或工业良率验证。如果进一步放大面积，需要系统评估基底温度、墨水批次、膜厚和像素间响应分布，并给出独立批次统计。",
+    "answer_en": "Device statistics and the 64 × 64 array demonstration support feasibility at the investigated device and array scales. They do not establish wafer-scale uniformity or industrial yield. Scaling requires systematic evaluation of substrate temperature, ink batches, film thickness, and pixel-response distributions, together with statistics from independent fabrication batches."
+  },
+  {
+    "number": 23,
+    "question_cn": "为什么暗电流降低的同时 响应度和带宽还能提高？",
+    "question_en": "Why do responsivity and bandwidth improve while dark current decreases?",
+    "answer_cn": "漏电通路与有用的光生载流子提取不完全相同。更连续的膜和更好的界面能够减少无效漏电及陷阱引起的俘获，同时改善光生载流子提取，因此三项性能可以同步改善。论文中65 °C器件在1310 nm、0 V下响应度达到0.765 A/W，带宽为108 kHz；这些指标应分别按各自测试条件解释。",
+    "answer_en": "Leakage pathways and useful photocarrier extraction are not identical. Better film continuity and interfaces can reduce parasitic current and trapping while improving carrier extraction, allowing dark current, responsivity, and bandwidth to improve together. The 65 °C device reaches 0.765 A/W at 1310 nm and zero bias, with a reported bandwidth of 108 kHz; each metric retains its own measurement conditions."
+  },
+  {
+    "number": 24,
+    "question_cn": "探测率是怎么得到的 是否测量了实际噪声？",
+    "question_en": "How was the detectivity determined, and was the noise measured directly?",
+    "answer_cn": "有实际噪声测量。论文以响应度、有效面积和实测噪声计算比探测率：面积为0.04 cm²，电带宽取1 Hz，噪声采用噪声谱在1 Hz处的测量值；噪声谱测于0 V。峰值为3.57 × 10¹¹ Jones。这不是仅由暗电流套用散粒噪声公式得到的数值，也不代表所有频率和工作点都达到同一探测率。",
+    "answer_en": "Yes. The paper calculates specific detectivity using responsivity, an active area of 0.04 cm², and measured noise at 1 Hz with a 1 Hz electrical bandwidth. The noise spectrum was measured at zero bias. The peak is 3.57 × 10¹¹ Jones. This is not merely a shot-noise estimate from dark current, and it should not be generalized to every frequency or operating point."
+  },
+  {
+    "number": 25,
+    "question_cn": "为什么连续量子点薄膜不需要额外像素隔离 会不会串扰？",
+    "question_en": "Why can a continuous quantum-dot film operate without additional pixel isolation? What about pixel crosstalk?",
+    "answer_cn": "像素由电极和TFT读出结构定义，而量子点薄膜有限的横向载流子输运有助于限制像素间扩散。论文中的重建图像说明在所演示条件下能够分辨图案，但不能因此声称串扰严格为零。如果要定量评价，还应测量点扩散函数、调制传递函数或相邻像素的串扰矩阵。",
+    "answer_en": "Pixels are defined by the electrodes and TFT readout structure, while limited lateral transport in the QD film helps restrict spreading between pixels. The reconstructed images demonstrate pattern resolution under the reported conditions, but they do not prove zero crosstalk. Quantitative assessment would require a point-spread function, modulation-transfer measurements, or a neighboring-pixel crosstalk matrix."
+  },
+  {
+    "number": 26,
+    "question_cn": "这个64 × 64阵列使用的是TFT还是CMOS背板？",
+    "question_en": "Does the 64 × 64 array use a TFT or CMOS backplane?",
+    "answer_cn": "这里实际展示的是TFT背板，不是CMOS成像芯片。热旋涂的低温和简洁叠层有利于考虑后续集成，但不能把TFT演示直接等同于完成CMOS工艺验证。若转到CMOS，还需要逐项核实溶剂、热预算、电极、污染控制和读出电路兼容性。",
+    "answer_en": "The demonstrated array uses a TFT backplane, not a CMOS imager. The relatively low-temperature process and simple stack motivate further integration, but the TFT demonstration is not a completed CMOS-process qualification. Moving to CMOS would require checking solvent compatibility, thermal budget, electrodes, contamination control, and readout-circuit requirements."
+  },
+  {
+    "number": 27,
+    "question_cn": "为什么选择940和1300 nm两个波长 为什么采用比值信号？",
+    "question_en": "Why were 940 and 1300 nm selected for glucose sensing, and why use a ratiometric signal?",
+    "answer_cn": "按照论文的设计，940 nm主要作为参考通道，1300 nm用于获得更敏感的葡萄糖相关光学响应。比值由1300 nm平均光电流除以940 nm平均光电流得到，每个通道平均5帧。这样可以减小部分共同的光强和背景波动，但比值本身并不赋予对葡萄糖的完全特异性。",
+    "answer_en": "In the reported design, 940 nm serves mainly as a reference channel, while 1300 nm provides a more glucose-sensitive optical response. The ratio is the average photocurrent at 1300 nm divided by that at 940 nm, using five frames per channel. This reduces some common fluctuations, but the ratio alone does not provide complete glucose specificity."
+  },
+  {
+    "number": 28,
+    "question_cn": "怎么排除皮肤 水分 温度和手指压力等因素的干扰？",
+    "question_en": "How are interference effects from skin, water, temperature, and finger pressure addressed?",
+    "answer_cn": "双波长比值有助于降低共同背景波动，论文还通过帧平均及排除饱和或过弱像素改善信号可靠性。但这些处理不能证明所有生理干扰已被消除。更严格的研究还需要固定光路与按压力、记录温度，并开展跨个体、跨日期及不同皮肤条件下的独立验证。",
+    "answer_en": "Ratiometric detection reduces some common background fluctuations. The reported processing also averages frames and excludes saturated or very weak pixels. These steps do not eliminate all physiological interference. Stronger validation would control the optical geometry and finger pressure, record temperature, and test independent subjects, dates, and skin conditions."
+  },
+  {
+    "number": 29,
+    "question_cn": "小于5%的偏差是在什么实验条件下得到的 能用于临床吗？",
+    "question_en": "Under what experimental conditions was the deviation below 5% obtained, and is the system ready for clinical use?",
+    "answer_cn": "这是在论文报告的指尖检测条件下，把双波长比值经校准得到的结果与商用血糖仪作比较。测量在进食后的不同时间点进行，论文明确称其为初步一致性检查，而不是严格临床验证。不能据此声称已达到临床精度或可替代血糖仪；受试者数量和独立验证设计若被问到，应按实际记录回答，不编造。",
+    "answer_en": "The reported deviation compares calibrated fingertip ratiometric measurements with a commercial glucose meter at different times after food intake. The paper explicitly presents this as a preliminary consistency check, not rigorous clinical validation. It does not establish clinical accuracy or replacement of a glucose meter. Subject numbers and independent-validation details must be answered from the actual study records."
+  },
+  {
+    "number": 30,
+    "question_cn": "目前最大的局限是什么 下一步准备做什么？",
+    "question_en": "What is the main limitation, and what are your next steps?",
+    "answer_cn": "器件层面，需要进一步验证分量参数的可辨识性、批次重复性以及更大面积集成的均匀性。应用层面，当前血糖结果仍是原理演示，下一步应加强干扰控制和独立人群验证。因此，我们希望把已有的成膜和漏电优势转化为更稳定、可量化的系统性能，而不是提前宣称临床或工业成熟。",
+    "answer_en": "At the device level, further work should address parameter identifiability, batch reproducibility, and uniformity at larger integration scales. At the application level, glucose sensing remains a proof of concept and needs stronger interference control and independent human validation. The next objective is to translate the film and leakage improvements into robust, quantifiable system performance."
+  }
+]
