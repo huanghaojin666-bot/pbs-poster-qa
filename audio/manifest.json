@@ -1,0 +1,317 @@
+{
+  "voice": "Microsoft Zira Desktop",
+  "language": "en-US",
+  "format": "MP3",
+  "clips": {
+    "test": {
+      "file": "test.mp3",
+      "duration_seconds": 7.75,
+      "bytes": 62484
+    },
+    "opening": {
+      "file": "opening.mp3",
+      "duration_seconds": 33.63,
+      "bytes": 269583
+    },
+    "question-01": {
+      "file": "question-01.mp3",
+      "duration_seconds": 3.06,
+      "bytes": 25077
+    },
+    "answer-01": {
+      "file": "answer-01.mp3",
+      "duration_seconds": 29.49,
+      "bytes": 236355
+    },
+    "question-02": {
+      "file": "question-02.mp3",
+      "duration_seconds": 2.82,
+      "bytes": 22987
+    },
+    "answer-02": {
+      "file": "answer-02.mp3",
+      "duration_seconds": 23.81,
+      "bytes": 191007
+    },
+    "question-03": {
+      "file": "question-03.mp3",
+      "duration_seconds": 6.16,
+      "bytes": 49737
+    },
+    "answer-03": {
+      "file": "answer-03.mp3",
+      "duration_seconds": 24.41,
+      "bytes": 195813
+    },
+    "question-04": {
+      "file": "question-04.mp3",
+      "duration_seconds": 6.34,
+      "bytes": 51200
+    },
+    "answer-04": {
+      "file": "answer-04.mp3",
+      "duration_seconds": 26.75,
+      "bytes": 214622
+    },
+    "question-05": {
+      "file": "question-05.mp3",
+      "duration_seconds": 6.79,
+      "bytes": 54752
+    },
+    "answer-05": {
+      "file": "answer-05.mp3",
+      "duration_seconds": 23.01,
+      "bytes": 184528
+    },
+    "question-06": {
+      "file": "question-06.mp3",
+      "duration_seconds": 4.02,
+      "bytes": 32809
+    },
+    "answer-06": {
+      "file": "answer-06.mp3",
+      "duration_seconds": 21.15,
+      "bytes": 169691
+    },
+    "question-07": {
+      "file": "question-07.mp3",
+      "duration_seconds": 6.48,
+      "bytes": 52244
+    },
+    "answer-07": {
+      "file": "answer-07.mp3",
+      "duration_seconds": 25.39,
+      "bytes": 203546
+    },
+    "question-08": {
+      "file": "question-08.mp3",
+      "duration_seconds": 3.61,
+      "bytes": 29466
+    },
+    "answer-08": {
+      "file": "answer-08.mp3",
+      "duration_seconds": 23.65,
+      "bytes": 189753
+    },
+    "question-09": {
+      "file": "question-09.mp3",
+      "duration_seconds": 5.54,
+      "bytes": 44930
+    },
+    "answer-09": {
+      "file": "answer-09.mp3",
+      "duration_seconds": 20.04,
+      "bytes": 160914
+    },
+    "question-10": {
+      "file": "question-10.mp3",
+      "duration_seconds": 4.35,
+      "bytes": 35317
+    },
+    "answer-10": {
+      "file": "answer-10.mp3",
+      "duration_seconds": 25.24,
+      "bytes": 202501
+    },
+    "question-11": {
+      "file": "question-11.mp3",
+      "duration_seconds": 8.41,
+      "bytes": 67918
+    },
+    "answer-11": {
+      "file": "answer-11.mp3",
+      "duration_seconds": 27.72,
+      "bytes": 222354
+    },
+    "question-12": {
+      "file": "question-12.mp3",
+      "duration_seconds": 6.96,
+      "bytes": 56215
+    },
+    "answer-12": {
+      "file": "answer-12.mp3",
+      "duration_seconds": 27.39,
+      "bytes": 219637
+    },
+    "question-13": {
+      "file": "question-13.mp3",
+      "duration_seconds": 4.37,
+      "bytes": 35526
+    },
+    "answer-13": {
+      "file": "answer-13.mp3",
+      "duration_seconds": 26.37,
+      "bytes": 211487
+    },
+    "question-14": {
+      "file": "question-14.mp3",
+      "duration_seconds": 4.87,
+      "bytes": 39497
+    },
+    "answer-14": {
+      "file": "answer-14.mp3",
+      "duration_seconds": 24.06,
+      "bytes": 193097
+    },
+    "question-15": {
+      "file": "question-15.mp3",
+      "duration_seconds": 7.17,
+      "bytes": 57887
+    },
+    "answer-15": {
+      "file": "answer-15.mp3",
+      "duration_seconds": 22.11,
+      "bytes": 177423
+    },
+    "question-16": {
+      "file": "question-16.mp3",
+      "duration_seconds": 5.82,
+      "bytes": 47020
+    },
+    "answer-16": {
+      "file": "answer-16.mp3",
+      "duration_seconds": 25.84,
+      "bytes": 207307
+    },
+    "question-17": {
+      "file": "question-17.mp3",
+      "duration_seconds": 6.48,
+      "bytes": 52453
+    },
+    "answer-17": {
+      "file": "answer-17.mp3",
+      "duration_seconds": 26.33,
+      "bytes": 211278
+    },
+    "question-18": {
+      "file": "question-18.mp3",
+      "duration_seconds": 4.5,
+      "bytes": 36571
+    },
+    "answer-18": {
+      "file": "answer-18.mp3",
+      "duration_seconds": 26.54,
+      "bytes": 212950
+    },
+    "question-19": {
+      "file": "question-19.mp3",
+      "duration_seconds": 4.25,
+      "bytes": 34481
+    },
+    "answer-19": {
+      "file": "answer-19.mp3",
+      "duration_seconds": 24.77,
+      "bytes": 198739
+    },
+    "question-20": {
+      "file": "question-20.mp3",
+      "duration_seconds": 5.0,
+      "bytes": 40542
+    },
+    "answer-20": {
+      "file": "answer-20.mp3",
+      "duration_seconds": 34.26,
+      "bytes": 274599
+    },
+    "question-21": {
+      "file": "question-21.mp3",
+      "duration_seconds": 5.6,
+      "bytes": 45348
+    },
+    "answer-21": {
+      "file": "answer-21.mp3",
+      "duration_seconds": 26.08,
+      "bytes": 209188
+    },
+    "question-22": {
+      "file": "question-22.mp3",
+      "duration_seconds": 5.95,
+      "bytes": 48065
+    },
+    "answer-22": {
+      "file": "answer-22.mp3",
+      "duration_seconds": 25.42,
+      "bytes": 203964
+    },
+    "question-23": {
+      "file": "question-23.mp3",
+      "duration_seconds": 4.78,
+      "bytes": 38870
+    },
+    "answer-23": {
+      "file": "answer-23.mp3",
+      "duration_seconds": 31.72,
+      "bytes": 254328
+    },
+    "question-24": {
+      "file": "question-24.mp3",
+      "duration_seconds": 4.81,
+      "bytes": 39079
+    },
+    "answer-24": {
+      "file": "answer-24.mp3",
+      "duration_seconds": 29.47,
+      "bytes": 236355
+    },
+    "question-25": {
+      "file": "question-25.mp3",
+      "duration_seconds": 7.66,
+      "bytes": 61857
+    },
+    "answer-25": {
+      "file": "answer-25.mp3",
+      "duration_seconds": 26.67,
+      "bytes": 213995
+    },
+    "question-26": {
+      "file": "question-26.mp3",
+      "duration_seconds": 5.65,
+      "bytes": 45766
+    },
+    "answer-26": {
+      "file": "answer-26.mp3",
+      "duration_seconds": 25.48,
+      "bytes": 204382
+    },
+    "question-27": {
+      "file": "question-27.mp3",
+      "duration_seconds": 8.4,
+      "bytes": 67709
+    },
+    "answer-27": {
+      "file": "answer-27.mp3",
+      "duration_seconds": 28.55,
+      "bytes": 228832
+    },
+    "question-28": {
+      "file": "question-28.mp3",
+      "duration_seconds": 5.87,
+      "bytes": 47438
+    },
+    "answer-28": {
+      "file": "answer-28.mp3",
+      "duration_seconds": 25.3,
+      "bytes": 202919
+    },
+    "question-29": {
+      "file": "question-29.mp3",
+      "duration_seconds": 7.71,
+      "bytes": 62275
+    },
+    "answer-29": {
+      "file": "answer-29.mp3",
+      "duration_seconds": 26.91,
+      "bytes": 215875
+    },
+    "question-30": {
+      "file": "question-30.mp3",
+      "duration_seconds": 4.15,
+      "bytes": 33854
+    },
+    "answer-30": {
+      "file": "answer-30.mp3",
+      "duration_seconds": 25.8,
+      "bytes": 206889
+    }
+  }
+}
