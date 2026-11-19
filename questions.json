@@ -208,5 +208,47 @@
     "question_en": "What is the main limitation, and what are your next steps?",
     "answer_cn": "器件层面，需要进一步验证分量参数的可辨识性、批次重复性以及更大面积集成的均匀性。应用层面，当前血糖结果仍是原理演示，下一步应加强干扰控制和独立人群验证。因此，我们希望把已有的成膜和漏电优势转化为更稳定、可量化的系统性能，而不是提前宣称临床或工业成熟。",
     "answer_en": "At the device level, further work should address parameter identifiability, batch reproducibility, and uniformity at larger integration scales. At the application level, glucose sensing remains a proof of concept and needs stronger interference control and independent human validation. The next objective is to translate the film and leakage improvements into robust, quantifiable system performance."
+  },
+  {
+    "number": 31,
+    "question_cn": "总暗电流降低约55%，怎样确认欧姆和非欧姆漏电都下降？换拟合偏压范围后是否稳定，有独立证据吗？",
+    "question_en": "The total dark current falls by about 55%. How do you confirm that both Ohmic and non-Ohmic leakage decrease? Are the results stable when the fitting bias range changes, and is there independent evidence?",
+    "answer_cn": "在相同模型下，−0.5 V处的欧姆分量由约312降至109 nA/cm²，非欧姆分量由64.4降至29.1 nA/cm²。但这些是拟合得到的分量。当前海报没有展示不同拟合窗口的敏感性分析或参数置信区间，所以不能声称已经排除拟合非唯一性。形貌、阻抗和载流子动力学表征支持薄膜与界面改善的解释，但不是对两个分量的独立定量测量。若要进一步验证，应比较不同初值和偏压窗口，并结合温度依赖、面积依赖或局部电流测量；这些应作为待补充验证，而不是说已经做过。",
+    "answer_en": "Using the same model, the Ohmic component falls from about 312 to 109 nA/cm² at −0.5 V, while the non-Ohmic component falls from 64.4 to 29.1 nA/cm². These are model-derived values. The poster does not show fitting-window sensitivity or parameter confidence intervals, so we do not claim a unique decomposition. Structural, impedance, and carrier-dynamics measurements support improved film and interface quality, but they do not independently quantify the two currents. Bias-window, initial-condition, temperature-dependent, or local-current checks would provide further validation."
+  },
+  {
+    "number": 32,
+    "question_cn": "AFM粗糙度从0.927降到0.840 nm，能证明薄膜更致密吗？有没有截面或统计表征，怎样区分致密化和界面阻挡？",
+    "question_en": "AFM roughness decreases from 0.927 to 0.840 nm. Does this establish a denser film? Is there cross-sectional or statistical evidence, and how do you distinguish densification from interfacial blocking?",
+    "answer_cn": "AFM反映局部表面形貌，粗糙度降低本身不能直接证明整个薄膜体密度增加，也不能排除界面阻挡变化。GISAXS提供了集合体堆积相关性变化的证据，与更紧凑堆积的解释一致；TRPL和阻抗结果则支持载流子动力学及界面变化。海报中没有展示能够单独判定体密度的截面实测证据。更稳妥的结论是成膜与界面共同改善，而不是把全部漏电下降归因于RMS变化。进一步区分两者，需要多区域统计及专门的结构和界面电学测量。",
+    "answer_en": "AFM probes local surface morphology, so lower roughness alone does not establish higher bulk density or exclude changes in interfacial blocking. GISAXS provides ensemble packing evidence consistent with a more compact assembly, while TRPL and impedance measurements support changes in carrier dynamics and interfaces. The poster does not present cross-sectional measurements that independently determine bulk density. We therefore attribute the improvement to film formation and interface quality together, rather than to RMS roughness alone. Spatial statistics and dedicated structural and interface measurements would help separate their contributions."
+  },
+  {
+    "number": 33,
+    "question_cn": "PM6的拟合降幅更大，为什么还选择65 °C热旋涂？只是少一道工序，还是均匀性和良率也更好？工艺窗口有多宽？",
+    "question_en": "The PM6 case shows larger fitted reductions. Why choose 65 °C thermal spin-coating? Is it only a simpler process, or are uniformity and yield also better? How wide is the process window?",
+    "answer_cn": "PM6与热旋涂来自不同器件体系及各自对照，不能直接按降幅排名。热旋涂的明确优势是在不新增缓冲材料及相应涂覆步骤的情况下实现双漏电抑制。阵列演示支持其集成可行性，但不能据此宣称量产良率或大面积均匀性一定优于PM6。65 °C是在论文比较条件下的优选条件；当前海报没有给出足够密集的邻近温度扫描和多批次统计，因此不能给出正负几度的制造容差。要比较良率与窗口，需要统一结构、批次和测试条件的实验。",
+    "answer_en": "The PM6 and thermal-process results come from different device systems and their own controls, so the reduction percentages cannot be ranked directly. Thermal spin-coating suppresses both leakage terms without adding a buffer material or coating step. Array operation supports integration feasibility, but does not establish better manufacturing yield or large-area uniformity than PM6. Sixty-five degrees Celsius is the preferred condition in the reported comparison. The poster does not establish a temperature tolerance window; that requires denser temperature sampling and matched batch statistics."
+  },
+  {
+    "number": 34,
+    "question_cn": "探测率从1.89 × 10¹¹升至3.57 × 10¹¹ Jones，是用实测噪声还是散粒噪声估算？在实际工作偏压、频率和读出带宽下，哪个噪声占主导？",
+    "question_en": "Detectivity increases from 1.89 × 10¹¹ to 3.57 × 10¹¹ Jones. Was measured noise used, or a shot-noise estimate? Which noise source dominates at the actual operating bias, frequency, and readout bandwidth?",
+    "answer_cn": "论文使用实测噪声：以0 V噪声谱在1 Hz处的测量值，结合响应度、0.04 cm²面积和1 Hz电带宽计算探测率，并不是只按暗电流估算散粒噪声。这个峰值只对应特定条件，不能直接当作阵列实际帧率下的系统探测率，也不能与108 kHz带宽指标混为同一频率的性能。工作点下谁占主导，需要在相应频率和偏压测量并区分低频噪声、散粒噪声及读出噪声；海报不足以给出各项占比。",
+    "answer_en": "Measured noise was used. The paper uses the zero-bias noise spectrum at 1 Hz, responsivity, an active area of 0.04 cm², and a 1 Hz electrical bandwidth. This is not simply a shot-noise estimate from dark current. The peak should not be transferred directly to the array frame rate or interpreted as detectivity at the reported 108 kHz bandwidth. The relative contributions of low-frequency, shot, and readout noise must be evaluated at the actual operating point; the poster does not quantify those fractions."
+  },
+  {
+    "number": 35,
+    "question_cn": "连续量子点膜没有像素隔离，单独照亮一个像素时邻像素会收到多少信号？像素间距继续缩小时，串扰会成为限制吗？",
+    "question_en": "With a continuous QD film and no pixel isolation, how much signal reaches neighboring pixels when one pixel is illuminated? Could crosstalk become limiting as the pixel pitch decreases?",
+    "answer_cn": "像素由电极及TFT读出结构定义，有限的横向输运有助于限制扩散。现有重建图像支持演示条件下的图案分辨能力，但不能证明串扰为零，海报也没有给出邻像素串扰比例。定量验证可采用1310 nm局域照明，在标定光斑、散射背景和读出耦合后比较被照像素与邻像素响应，或测量点扩散函数和调制传递函数。像素间距减小时，需要重新验证，不能仅由64 × 64图像外推。",
+    "answer_en": "Electrode-defined pixels and limited lateral transport help restrict signal spreading. The reconstructed patterns demonstrate resolution under the reported conditions, but do not establish zero crosstalk, and the poster gives no neighboring-pixel crosstalk ratio. A localized 1310 nm illumination test could compare the illuminated pixel with its neighbors after accounting for spot size, optical scattering, and readout coupling. Point-spread or modulation-transfer measurements would also help. Crosstalk must be reassessed at smaller pixel pitches rather than extrapolated from the 64 × 64 images."
+  },
+  {
+    "number": 36,
+    "question_cn": "940/1300 nm比值中有多少信号真正来自血糖，而不是散射、按压力、温度或血流？小于5%的偏差能在多位受试者上复现吗？",
+    "question_en": "How much of the 940/1300 nm ratio reflects glucose rather than scattering, finger pressure, temperature, or blood flow? Can the deviation below 5% be reproduced across multiple subjects?",
+    "answer_cn": "双波长比值可以降低部分共同背景波动，但不能完全消除波长相关散射、按压力、温度和血流影响，也不能单独保证葡萄糖特异性。小于5%的偏差来自论文报告条件下，经校准的指尖信号与商用血糖仪的初步一致性比较。它不足以证明同一校准能跨人群复现。受试者数量、校准是否独立以及测试集如何划分，需要按原始记录确认。下一步应控制光路、压力和温度，并开展跨日期及独立受试者验证。",
+    "answer_en": "Ratiometric detection reduces some common background fluctuations, but does not eliminate wavelength-dependent scattering, pressure, temperature, or blood-flow effects, and does not by itself guarantee glucose specificity. The deviation below five percent is a preliminary comparison between calibrated fingertip measurements and a commercial meter under the reported conditions. It does not establish that one calibration generalizes across subjects. Subject numbers and independent calibration or test-set details must be checked against the original records. Controlled measurements across dates and independent subjects are needed."
   }
 ]
