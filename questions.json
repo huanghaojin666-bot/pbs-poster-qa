@@ -250,5 +250,141 @@
     "question_en": "How much of the 940/1300 nm ratio reflects glucose rather than scattering, finger pressure, temperature, or blood flow? Can the deviation below 5% be reproduced across multiple subjects?",
     "answer_cn": "双波长比值可以降低部分共同背景波动，但不能完全消除波长相关散射、按压力、温度和血流影响，也不能单独保证葡萄糖特异性。小于5%的偏差来自论文报告条件下，经校准的指尖信号与商用血糖仪的初步一致性比较。它不足以证明同一校准能跨人群复现。受试者数量、校准是否独立以及测试集如何划分，需要按原始记录确认。下一步应控制光路、压力和温度，并开展跨日期及独立受试者验证。",
     "answer_en": "Ratiometric detection reduces some common background fluctuations, but does not eliminate wavelength-dependent scattering, pressure, temperature, or blood-flow effects, and does not by itself guarantee glucose specificity. The deviation below five percent is a preliminary comparison between calibrated fingertip measurements and a commercial meter under the reported conditions. It does not establish that one calibration generalizes across subjects. Subject numbers and independent calibration or test-set details must be checked against the original records. Controlled measurements across dates and independent subjects are needed."
+  },
+  {
+    "number": 37,
+    "angle": "机理与漏电解析",
+    "question_cn": "J–V分量拟合中的Rs、Rsh是自由参数，还是独立测试标定的？参数选择会影响电流占比吗？",
+    "question_en": "Are series and shunt resistances fitted parameters or independently calibrated values? Can their selection change the fitted current fractions?",
+    "answer_cn": "对M1/M2诊断分析，补充资料S2明确给出了Rs、Rsh的拟合边界；它们是在约束内拟合的模型系数，不是每个器件都提前独立标定后固定。由于拟合的是电流密度，电阻采用Ω cm²的面积归一化单位。Rs通过内部电压影响各支路，Rsh直接控制线性分量，所以边界与参数相关性确实可能改变占比。应比较合理边界、多初值及去项重拟合下的主导趋势；很小的残差不能证明参数唯一。独立电学测量可以提供额外约束，但不能把它与当前所有拟合系数直接等同。",
+    "answer_en": "For the M1/M2 diagnostic analysis, Supplementary Section S2 specifies fitting bounds for the series and shunt resistances. They are constrained model coefficients, not independently calibrated and fixed for every device. Since current density is fitted, the resistances are area-normalized in ohm square centimeters. Series resistance changes the internal voltage, and shunt resistance sets the linear contribution, so bounds and parameter correlations can affect the fractions. We assess dominant trends across alternative fits; a small residual does not establish unique parameters."
+  },
+  {
+    "number": 38,
+    "angle": "机理与漏电解析",
+    "question_cn": "如果日常筛选不做完整J–V扫描，建议测哪几个偏压点？三点筛查能代替完整曲线吗？",
+    "question_en": "Which bias points would you recommend for rapid device screening without a full J–V sweep? Can three-point screening replace the complete curve?",
+    "answer_cn": "可以把−0.1、−0.3、−0.5 V作为与本海报一致的初筛点，分别观察较弱反偏、中间形状和比较终点。除终点电流外，还可比较端点比值和中间点偏离程度。它只是一个实用初筛建议，不是已验证适用于所有器件的最优采样方案，更不能仅凭三点唯一分解全部电流。需要统一暗态、温度、等待时间、扫描历史和量程；发现异常曲率、滞后或接近噪声底时，应补测完整曲线。",
+    "answer_en": "A practical starting set is −0.1, −0.3, and −0.5 V, matching the poster and sampling weak reverse bias, intermediate shape, and the comparison endpoint. Endpoint ratios and intermediate deviations add information beyond one current value. This is a screening suggestion, not a universally validated optimum or a replacement for full-curve decomposition. Dark conditions, temperature, settling, scan history, and instrument range should be controlled. Unusual curvature, hysteresis, or near-noise-floor signals should trigger a complete measurement."
+  },
+  {
+    "number": 39,
+    "angle": "机理与漏电解析",
+    "question_cn": "非欧姆漏电主要来自量子点薄膜内部，还是ZnO/QD及上方接触界面的陷阱？怎样区分？",
+    "question_en": "Does non-Ohmic leakage originate mainly inside the QD film or at its interfaces, and how can the contributions be separated?",
+    "answer_cn": "仅凭幂律拟合不能给陷阱定位，也不能给出体相和界面各占多少。量子点膜中的缺陷可位于量子点表面、点间连接区域或功能层界面，不能一律等同于传统连续晶体的晶界。还要注意结构中PbS-ink与MoOx之间有PbS-EDT层，并非一个简单直接接触。区分来源需要选择性改变某一界面、设置单载流子或厚度对照，再结合温度依赖、瞬态和光谱表征。现有TRPL、SCLC及阻抗结果支持输运和缺陷改善，但不唯一确定其空间来源。",
+    "answer_en": "A power-law fit cannot locate traps or assign separate bulk and interface percentages. Defects may occur on QD surfaces, between dots, or at functional-layer interfaces. The actual stack also includes PbS-EDT between the PbS-ink layer and MoOx, so the top contact should not be reduced to one direct interface. Selective interface modifications, single-carrier or thickness controls, and temperature-dependent, transient, or spectroscopic measurements would help. Existing TRPL, space-charge-limited-current, and impedance results support improvement without uniquely localizing the defects."
+  },
+  {
+    "number": 40,
+    "angle": "热旋涂工艺",
+    "question_cn": "65 °C附近的工艺窗口有多宽？更高温会溶剂沸腾或量子点团聚吗？最低有效温度是多少？",
+    "question_en": "How tolerant is the process around 65 °C? Does higher temperature cause solvent boiling or QD aggregation, and what is the minimum effective temperature?",
+    "answer_cn": "65 °C是当前材料和所比较条件下的优选点，海报没有给出足够密集的温度扫描来确定最低有效温度或制造容差。更高温可能导致挥发过快、堆积不均、团聚或局部融合；论文的高温形貌讨论也提示这种权衡。但不能在没有原位温度或气泡证据时把性能变化直接归因于溶剂沸腾。实际窗口还取决于混合溶剂、墨水浓度、基底热容、旋涂速度和环境，需结合温度记录与多批次统计确定。",
+    "answer_en": "Sixty-five degrees Celsius is the preferred point for the reported material and comparison. The poster does not establish a minimum effective temperature or manufacturing tolerance. Higher temperature can accelerate drying excessively and promote packing heterogeneity, aggregation, or partial fusion. However, solvent boiling should not be claimed without direct temperature or bubble evidence. The usable window also depends on solvent composition, ink concentration, substrate heat capacity, spin conditions, and environment, and requires denser temperature sampling and batch statistics."
+  },
+  {
+    "number": 41,
+    "angle": "热旋涂工艺",
+    "question_cn": "热旋涂与PM6相比，偏压老化、湿热和长期稳定性到底哪一个更好？",
+    "question_en": "How does thermal spin-coating compare with PM6 under bias stress, damp heat, and long-term stability tests?",
+    "answer_cn": "现有材料不足以对这两种方案在偏压或湿热应力下作排名。热旋涂论文报告的是25与65 °C器件在室温、真空保护、未封装条件下的长期储存比较，包括9个月结果。储存稳定性不能等同于持续偏压运行，也不能等同于湿热测试；该组比较也不是PM6与热旋涂的同结构对照。若要回答孰优孰劣，需要匹配结构、封装和批次，并规定偏压、温湿度、光照及失效判据。",
+    "answer_en": "The available evidence does not support ranking the two approaches under bias or damp-heat stress. The thermal-process paper reports storage comparisons between 25 and 65 °C devices at room temperature under vacuum protection without encapsulation, including nine-month results. Storage is not equivalent to biased operation or damp-heat testing, and this is not a matched PM6 comparison. A fair ranking would require matched structures, encapsulation, batches, stress conditions, and failure criteria."
+  },
+  {
+    "number": 42,
+    "angle": "热旋涂工艺",
+    "question_cn": "RMS只降低约9.4%，为什么漏电能显著下降？配体排布或界面缺陷是否也发生了变化？",
+    "question_en": "Why does leakage decrease substantially when RMS roughness improves by only about 9.4%? Could ligand arrangement or interface defects also change?",
+    "answer_cn": "RMS是局部表面高度的统计量，与电流并没有简单线性比例关系。少量连通漏电通路的改变就可能显著影响总电流，而未必带来同等幅度的平均粗糙度变化。量子点接触、电子耦合及陷阱相关过程也可能改变；论文中的TRPL、SCLC和阻抗结果提供了相应支持。但具体配体取向、配位或化学成分是否改变，需要FTIR、XPS或其他专门化学表征，不能单凭漏电下降确定。",
+    "answer_en": "RMS is a local surface-height statistic and is not linearly proportional to current. Changes in a small number of connected leakage paths can strongly affect current without a comparable change in average roughness. Inter-dot contacts, electronic coupling, and trapping can also change; TRPL, space-charge-limited-current, and impedance measurements provide supporting evidence. Specific changes in ligand orientation, coordination, or chemistry would require dedicated measurements such as FTIR or XPS, rather than inference from leakage alone."
+  },
+  {
+    "number": 43,
+    "angle": "光电器件性能",
+    "question_cn": "带宽从66提高到108 kHz，主要是电阻降低，还是结电容变化？能用RC解释吗？",
+    "question_en": "Does the bandwidth increase from 66 to 108 kHz mainly result from lower resistance or changed junction capacitance? Is it an RC effect?",
+    "answer_cn": "带宽实测结果说明动态响应改善，但当前证据不能把提升唯一分配给电阻或结电容。更高分流电阻有利于降漏电，它并不是简单带宽表达式中的传输电阻；阻抗拟合里的复合电阻也不能直接当作串联电阻。陷阱俘获、载流子提取、渡越和外部读出负载都可能影响响应。要定量拆分RC与输运限制，需要同工作点下的电容及阻抗测量、负载去嵌和瞬态分析；目前可说结果与改善输运和减少俘获一致。",
+    "answer_en": "The measured bandwidth shows improved dynamics, but does not uniquely separate resistance and capacitance effects. Higher shunt resistance reduces leakage; it is not the transport resistance in a simple bandwidth expression. Recombination resistance from impedance fitting is also not automatically series resistance. Trapping, extraction, transit, and readout loading can all matter. Separating these effects requires capacitance and impedance measurements at the operating point, load de-embedding, and transient analysis. The current evidence is consistent with improved transport and reduced trapping."
+  },
+  {
+    "number": 44,
+    "angle": "光电器件性能",
+    "question_cn": "热旋涂作用于PbS-ink层，65 °C会不会损伤相邻的ZnO和MoOx层？",
+    "question_en": "Could the 65 °C process damage the neighboring ZnO or MoOx layers when thermal spin-coating targets the PbS-ink layer?",
+    "answer_cn": "先看实际制备顺序。ZnO在PbS-ink旋涂前已经沉积，因此会经历基底加热及墨水接触；“调控PbS-ink成膜”不意味着只有这一层被局部加热。MoOx和Ag是在PbS及PbS-EDT成膜之后才蒸镀，所以它们没有经历这一步65 °C热旋涂。65 °C较温和，但不能据此认定ZnO表面完全不变；若要排除其影响，需要空白热处理、溶剂对照及接触或表面电学表征。",
+    "answer_en": "The fabrication order is important. ZnO is deposited before the PbS-ink layer, so it experiences substrate heating and ink contact. Targeting QD film formation does not mean only that layer is heated locally. MoOx and Ag are evaporated after the PbS and PbS-EDT films are formed, so they do not experience this spin-coating step. Although 65 °C is relatively mild, excluding changes to ZnO would require thermal and solvent controls plus surface or contact characterization."
+  },
+  {
+    "number": 45,
+    "angle": "TFT成像与无创传感",
+    "question_cn": "量子点膜是在TFT背板上直接热旋涂，还是先成膜再转移？会不会热损伤背板？",
+    "question_en": "Are the QD films thermally spin-coated directly on the TFT backplane or transferred after fabrication? Could the process thermally damage the backplane?",
+    "answer_cn": "论文明确描述在TFT背板上直接制备量子点探测阵列，最后完成公共顶电极连接，不是先在另一基底成膜再转移。阵列能够工作支持集成可行性，但不能据此证明背板完全没有参数漂移。评估兼容性需要考虑完整热预算、溶剂和后续步骤，并比较处理前后的阈值、电流泄漏、迁移率和像素响应。65 °C本身较温和，不能代替这些背板验证。",
+    "answer_en": "The paper describes direct fabrication of the QD detector array on the TFT backplane, followed by the common top-electrode connection, rather than transfer of a separately formed film. Array operation supports integration feasibility, but does not establish zero backplane parameter drift. Compatibility should be evaluated over the complete thermal and chemical process by comparing threshold voltage, leakage, mobility, and pixel response before and after processing. The relatively mild temperature alone does not replace those checks."
+  },
+  {
+    "number": 46,
+    "angle": "TFT成像与无创传感",
+    "question_cn": "血糖结果是离体溶液测试，还是人体在体指尖测试？皮肤散射与水分会造成多大干扰？",
+    "question_en": "Were the glucose results measured in an ex vivo solution or on a human fingertip in vivo? How much interference comes from skin scattering and water?",
+    "answer_cn": "论文报告的是人体指尖光学测量，在进食后的不同时间点与商用血糖仪比较，并非仅用离体葡萄糖溶液。双波长比值、帧平均和像素筛选能改善部分背景与读出波动，但没有把水分、散射、压力和温度的独立贡献逐项量化，因此不能给出确定的干扰比例，也不能说已经全部消除。后续需要控制光路、按压力与温度，并开展跨日期、独立受试者及独立校准验证。",
+    "answer_en": "The paper reports optical fingertip measurements in vivo at different times after food intake, compared with a commercial glucose meter, rather than only an ex vivo glucose solution. Ratiometric analysis, frame averaging, and pixel selection reduce some fluctuations. However, the individual contributions of water, scattering, pressure, and temperature were not separately quantified, so no specific interference percentage or complete cancellation can be claimed. Controlled geometry, pressure, temperature, and independent validation across dates and subjects are needed."
+  },
+  {
+    "number": 47,
+    "angle": "TFT成像与无创传感",
+    "question_cn": "从小尺寸样品扩展到大面阵或晶圆级制备，热旋涂会遇到哪些主要工艺难点？",
+    "question_en": "What are the main challenges when scaling thermal spin-coating from small samples to large arrays or wafer-scale fabrication?",
+    "answer_cn": "关键是同时控制温度场与干燥过程：大基底的温度均匀性、滴液冷却、铺展、挥发、边缘堆积和膜厚分布都可能改变。还要兼顾背板表面形貌、润湿性、材料批次和缺陷尾部分布。现有64 × 64演示不等于晶圆级良率验证。放大时应绘制温度、膜厚、暗电流和像素响应的空间分布，开展多批次统计，并重新评估串扰；也不能直接假定小样品的65 °C窗口原样适用于大面积。",
+    "answer_en": "Scaling requires simultaneous control of temperature and drying. Substrate temperature uniformity, cooling during dispensing, spreading, evaporation, edge accumulation, and thickness distribution can all change. Backplane topography, wetting, material batches, and defect tails also matter. The 64 × 64 demonstration does not establish wafer-scale yield. Scale-up should include spatial maps of temperature, thickness, dark current, and pixel response, plus batch statistics and crosstalk assessment. The small-sample temperature window should not be assumed to transfer unchanged."
+  },
+  {
+    "number": 48,
+    "angle": "机理与漏电解析",
+    "question_cn": "六个拟合参数怎样保证唯一性？指数m具体是多少，能据此认定SCLC、陷阱填充或陷阱辅助隧穿吗？",
+    "question_en": "How is uniqueness addressed with six fitting parameters? What is the exponent m, and can it uniquely identify space-charge-limited current, trap filling, or trap-assisted tunneling?",
+    "answer_cn": "不能保证所有参数都有唯一的微观解释。手稿通过给定边界、多初值、去项重拟合和指数剖面检查主导趋势，而不是证明全局唯一。提供的补充表S1中，M1/M2显示解的m为3.2，正好达到名义上界；M2的非线性系数又很小，所以不能把该指数当作独立测得的陷阱参数。理想SCLC的平方律只在特定接触和输运假设下成立；大于2的幂律也不是TFL或TAT的唯一指纹。还需要温度、厚度、场依赖及独立陷阱证据，具体报值应对应展示曲线的保存参数。",
+    "answer_en": "We do not guarantee a unique microscopic interpretation of every parameter. Bounds, multiple starts, term-removal refits, and exponent profiles test persistent trends rather than prove global uniqueness. In the supplied supplementary table, the displayed M1/M2 exponents are 3.2, at the nominal upper bound; the nonlinear coefficient for M2 is also very small. The exponent is therefore not an independently measured trap parameter. Ideal square-law behavior requires specific assumptions, and an exponent above two is not a unique fingerprint of trap filling or tunneling."
+  },
+  {
+    "number": 49,
+    "angle": "机理与漏电解析",
+    "question_cn": "1,045条数据来自本组器件库还是文献汇总？M1/M2是同批工艺波动，还是专门制备的不同对照？",
+    "question_en": "Are the 1,045 records from your own device measurements or a literature compilation? Are M1/M2 same-batch variations or deliberately fabricated controls?",
+    "answer_cn": "手稿描述的是本组PbS量子点PD电学测量记录库，保留制备来源和日期，并非从文献图中汇集1,045条曲线。这里应说测量记录，而不是1,045个独立器件；进入拟合与选例还需要质量筛选。M1/M2按相近电学响应筛选，用来检验终点接近时中间形状仍可不同，并非由编号定义的一组专门工艺对照。是否同批、同工艺，必须核对来源标识，不能仅凭M1/M2两个名字作判断。",
+    "answer_en": "The manuscript describes a group PbS-QD photodiode measurement archive with preparation-source and date identifiers, not 1,045 curves digitized from the literature. These are measurement records, not necessarily independent devices, and fitting or example selection applies further criteria. M1/M2 were selected by similar electrical response to examine hidden shape differences. Their labels do not define a deliberately fabricated control pair. Whether they share a fabrication batch or process must be checked from the source identifiers."
+  },
+  {
+    "number": 50,
+    "angle": "热旋涂工艺",
+    "question_cn": "PM6约降低80%和69%，热旋涂约降低65%和55%，为什么仍强调热旋涂？把两种方案结合会更好吗？",
+    "question_en": "PM6 reduces the fitted leakage terms by about 80% and 69%, versus 65% and 55% for thermal spin-coating. Why emphasize the thermal route, and could combining the two improve performance?",
+    "answer_cn": "首先，这些降幅来自不同体系，不能直接排名。海报中的向下箭头不是数字1：正确降幅为80%、69%、65%、55%；响应度和带宽的相对提升约为78%和64%，也不是178%和164%。热旋涂强调少一层缓冲材料及其工序，并同时改善动态响应，但尚不能声称良率一定更高。两者叠加可能互补，也可能增加阻挡或溶剂影响；应在同一结构中设置室温/热旋涂与有/无PM6的四组对照，不能把降幅相加。",
+    "answer_en": "The percentages come from different device systems and cannot be ranked directly. The poster shows downward arrows: the reductions are 80%, 69%, 65%, and 55%. Responsivity and bandwidth improve by about 78% and 64%, not 178% or 164%. Thermal processing avoids one buffer layer and its coating step while improving dynamic response, but higher yield is not established. Combining the approaches could help or introduce new barriers and solvent effects. A matched four-group comparison is needed; the percentage reductions cannot simply be added."
+  },
+  {
+    "number": 51,
+    "angle": "热旋涂工艺",
+    "question_cn": "为什么致密无序堆积有利？65 °C是预热基底还是恒温旋涂腔体，80 °C等更高温度会怎样？",
+    "question_en": "Why can dense but disordered packing be beneficial? Is 65 °C achieved by substrate preheating or a heated spin chamber, and what happens at higher temperatures such as 80 °C?",
+    "answer_cn": "无序指量子点集合体的堆积有序度，不等于量子点晶体被破坏。紧密接触与膜连续性可能改善输运，即使长程堆积有序度下降。方法部分明确写的是基底预热并稳定1 min，随后动态旋涂40 s，再做85 °C、10 min后退火；不能据此声称旋涂腔体恒温，或液滴全程保持65 °C。特定80 °C结果应以实际测量为准。过高温度可能加剧不均匀或局部融合，但配体损伤等机制需要额外证据。",
+    "answer_en": "Disorder refers to the QD assembly, not necessarily damage to each crystal. Better contacts and film continuity can improve transport despite reduced long-range packing order. The method specifies substrate preheating and one minute of stabilization, dynamic spin-coating for forty seconds, and subsequent annealing at 85 °C for ten minutes. It does not establish a temperature-controlled chamber or a constant droplet temperature. Results at a specific temperature such as 80 °C require actual measurements; ligand damage should not be assumed without evidence."
+  },
+  {
+    "number": 52,
+    "angle": "TFT成像与无创传感",
+    "question_cn": "高Rsh能证明横向串扰小吗？横向电导率、像素间距和MTF具体是多少？",
+    "question_en": "Does a high shunt resistance prove low lateral crosstalk? What are the measured lateral conductivity, pixel pitch, and modulation-transfer performance?",
+    "answer_cn": "不能把垂直器件拟合得到的Rsh直接换算成薄膜横向电导率。像素间距需要芯片版图，横向输运需要专门的面内测量；64 × 64只说明像素数。内建纵向电场有利于提取是合理物理图像，但海报没有量化纵横电场比，也没有给出MTF或串扰矩阵，因此不能凭此报具体数值。现有图像支持演示条件下能分辨图案。更小间距需要通过局域照明、邻像素响应及MTF重新验证。",
+    "answer_en": "A shunt resistance fitted from a vertical device cannot be directly converted into lateral film conductivity. Pixel pitch requires the chip layout, and lateral transport requires an in-plane measurement; 64 × 64 specifies only the pixel count. A vertical built-in field is a plausible extraction picture, but the poster does not quantify field ratios or provide an MTF or crosstalk matrix. The images demonstrate pattern resolution under the tested conditions. Smaller pitches require localized illumination, neighboring-pixel, and modulation-transfer measurements."
+  },
+  {
+    "number": 53,
+    "angle": "TFT成像与无创传感",
+    "question_cn": "指尖血糖检测的受试者数量是多少？是否覆盖高低血糖区间，校准能否跨受试者复现？",
+    "question_en": "How many subjects were included in fingertip glucose sensing? Were hypoglycemic and hyperglycemic ranges covered, and does the calibration generalize across subjects?",
+    "answer_cn": "论文描述的是进食后不同时间点的人体指尖检测，但现有海报不能确定独立受试者数量、校准和测试集划分。像素数、帧数与时间点数不能当作受试者数量。图示范围有限，不能据此宣称已经验证临床低血糖和高血糖条件。双波长比值可减少部分共同漂移，但不能说消除了光程、温度或个体差异。小于5%应表述为所测条件下的初步一致性；跨受试者及更宽范围的独立验证仍是必要后续工作。",
+    "answer_en": "The paper describes fingertip measurements at different times after food intake, but the poster does not establish the number of independent subjects or the calibration/test split. Pixel, frame, and time-point counts are not subject counts. The limited plotted range does not establish validation in clinical hypoglycemia or hyperglycemia. The ratio reduces some common drift without eliminating path-length, temperature, or individual effects. The deviation below five percent is a preliminary consistency result; independent validation across subjects and a wider range remains necessary."
   }
 ]

@@ -372,6 +372,176 @@
       "file": "answer-36.mp3",
       "duration_seconds": 39.21,
       "bytes": 314096
+    },
+    "question-37": {
+      "file": "question-37.mp3",
+      "duration_seconds": 9.33,
+      "bytes": 75232
+    },
+    "answer-37": {
+      "file": "answer-37.mp3",
+      "duration_seconds": 39.64,
+      "bytes": 317648
+    },
+    "question-38": {
+      "file": "question-38.mp3",
+      "duration_seconds": 9.04,
+      "bytes": 72724
+    },
+    "answer-38": {
+      "file": "answer-38.mp3",
+      "duration_seconds": 40.35,
+      "bytes": 323291
+    },
+    "question-39": {
+      "file": "question-39.mp3",
+      "duration_seconds": 8.4,
+      "bytes": 67709
+    },
+    "answer-39": {
+      "file": "answer-39.mp3",
+      "duration_seconds": 43.55,
+      "bytes": 348786
+    },
+    "question-40": {
+      "file": "question-40.mp3",
+      "duration_seconds": 11.71,
+      "bytes": 94249
+    },
+    "answer-40": {
+      "file": "answer-40.mp3",
+      "duration_seconds": 38.07,
+      "bytes": 305110
+    },
+    "question-41": {
+      "file": "question-41.mp3",
+      "duration_seconds": 7.6,
+      "bytes": 61440
+    },
+    "answer-41": {
+      "file": "answer-41.mp3",
+      "duration_seconds": 34.3,
+      "bytes": 275017
+    },
+    "question-42": {
+      "file": "question-42.mp3",
+      "duration_seconds": 10.92,
+      "bytes": 87980
+    },
+    "answer-42": {
+      "file": "answer-42.mp3",
+      "duration_seconds": 36.04,
+      "bytes": 288809
+    },
+    "question-43": {
+      "file": "question-43.mp3",
+      "duration_seconds": 10.64,
+      "bytes": 85681
+    },
+    "answer-43": {
+      "file": "answer-43.mp3",
+      "duration_seconds": 39.62,
+      "bytes": 317440
+    },
+    "question-44": {
+      "file": "question-44.mp3",
+      "duration_seconds": 9.55,
+      "bytes": 76904
+    },
+    "answer-44": {
+      "file": "answer-44.mp3",
+      "duration_seconds": 37.02,
+      "bytes": 296751
+    },
+    "question-45": {
+      "file": "question-45.mp3",
+      "duration_seconds": 10.8,
+      "bytes": 86935
+    },
+    "answer-45": {
+      "file": "answer-45.mp3",
+      "duration_seconds": 35.08,
+      "bytes": 281077
+    },
+    "question-46": {
+      "file": "question-46.mp3",
+      "duration_seconds": 9.5,
+      "bytes": 76486
+    },
+    "answer-46": {
+      "file": "answer-46.mp3",
+      "duration_seconds": 37.43,
+      "bytes": 299885
+    },
+    "question-47": {
+      "file": "question-47.mp3",
+      "duration_seconds": 7.52,
+      "bytes": 60604
+    },
+    "answer-47": {
+      "file": "answer-47.mp3",
+      "duration_seconds": 42.35,
+      "bytes": 339382
+    },
+    "question-48": {
+      "file": "question-48.mp3",
+      "duration_seconds": 12.33,
+      "bytes": 99056
+    },
+    "answer-48": {
+      "file": "answer-48.mp3",
+      "duration_seconds": 38.63,
+      "bytes": 309498
+    },
+    "question-49": {
+      "file": "question-49.mp3",
+      "duration_seconds": 11.13,
+      "bytes": 89443
+    },
+    "answer-49": {
+      "file": "answer-49.mp3",
+      "duration_seconds": 36.75,
+      "bytes": 294452
+    },
+    "question-50": {
+      "file": "question-50.mp3",
+      "duration_seconds": 15.41,
+      "bytes": 123715
+    },
+    "answer-50": {
+      "file": "answer-50.mp3",
+      "duration_seconds": 43.48,
+      "bytes": 348368
+    },
+    "question-51": {
+      "file": "question-51.mp3",
+      "duration_seconds": 13.2,
+      "bytes": 106161
+    },
+    "answer-51": {
+      "file": "answer-51.mp3",
+      "duration_seconds": 38.0,
+      "bytes": 304483
+    },
+    "question-52": {
+      "file": "question-52.mp3",
+      "duration_seconds": 9.82,
+      "bytes": 79203
+    },
+    "answer-52": {
+      "file": "answer-52.mp3",
+      "duration_seconds": 38.45,
+      "bytes": 308035
+    },
+    "question-53": {
+      "file": "question-53.mp3",
+      "duration_seconds": 11.25,
+      "bytes": 90488
+    },
+    "answer-53": {
+      "file": "answer-53.mp3",
+      "duration_seconds": 38.87,
+      "bytes": 311588
     }
   }
 }
