@@ -4,387 +4,710 @@
     "question_cn": "这张海报主要解决什么问题？",
     "question_en": "What is the main problem addressed in this work?",
     "answer_cn": "我们关注PbS量子点短波红外探测器中的暗电流问题。仅看总暗电流，难以知道应该改善薄膜还是界面。海报先用多组分模型识别漏电分量，再通过PM6案例验证抑制目标，最后展示65 °C热旋涂如何在不增加缓冲层的情况下改善器件，并用于TFT成像和初步血糖传感。",
-    "answer_en": "We address dark current in PbS quantum-dot SWIR photodetectors. Total current alone does not identify which leakage pathway should be improved. We use component analysis to identify the targets, examine a PM6-buffered case to validate their suppression, and demonstrate a 65 °C thermal spin-coating route without an extra buffer layer. The improved films support TFT imaging and preliminary glucose sensing."
+    "answer_en": "We address dark current in PbS quantum-dot SWIR photodetectors. Total current alone does not identify which leakage pathway should be improved. We use component analysis to identify the targets, examine a PM6-buffered case to validate their suppression, and demonstrate a 65 °C thermal spin-coating route without an extra buffer layer. The improved films support TFT imaging and preliminary glucose sensing.",
+    "module": "01",
+    "angle": "工作主线"
   },
   {
     "number": 2,
     "question_cn": "你们工作的核心创新是什么？",
     "question_en": "What is the key innovation of your work?",
     "answer_cn": "核心在于把电流诊断与成膜工艺联系起来，而不仅是报告一个更低的暗电流值。模型区分不同漏电分量，热旋涂则通过改善量子点成膜同步降低两种漏电，并保持简洁的器件叠层。成像与传感进一步展示了这种工艺改善的系统应用价值。",
-    "answer_en": "The central contribution is the connection between leakage diagnosis and film processing, rather than simply reporting a lower dark-current value. Component analysis distinguishes the leakage pathways, while thermal spin-coating improves film formation and suppresses both leakage terms without an additional buffer. Imaging and sensing demonstrate the system-level relevance of the process."
+    "answer_en": "The central contribution is the connection between leakage diagnosis and film processing, rather than simply reporting a lower dark-current value. Component analysis distinguishes the leakage pathways, while thermal spin-coating improves film formation and suppresses both leakage terms without an additional buffer. Imaging and sensing demonstrate the system-level relevance of the process.",
+    "module": "01",
+    "angle": "工作主线"
   },
   {
     "number": 3,
     "question_cn": "暗电流模型 PM6和热旋涂这三部分是怎么联系起来的？",
     "question_en": "How are the dark-current model, the PM6 buffer, and thermal spin-coating connected?",
     "answer_cn": "模型回答应该抑制哪些电流分量；PM6案例说明两种漏电可以同步下降；热旋涂回答能否只调整量子点成膜过程实现这一目标。因此，PM6在叙事中是验证环节，热旋涂是更简洁的工艺方案，最后再用同一分量分析框架检验工艺效果。",
-    "answer_en": "The model identifies which current components should be suppressed. The PM6 case shows that both leakage terms can decrease together. Thermal spin-coating then asks whether film formation alone can achieve that objective. PM6 therefore serves as a validation step, and the thermal process provides a simpler processing route whose effect is examined using the same component framework."
+    "answer_en": "The model identifies which current components should be suppressed. The PM6 case shows that both leakage terms can decrease together. Thermal spin-coating then asks whether film formation alone can achieve that objective. PM6 therefore serves as a validation step, and the thermal process provides a simpler processing route whose effect is examined using the same component framework.",
+    "module": "01",
+    "angle": "工作主线"
   },
   {
     "number": 4,
     "question_cn": "这几部分来自不同论文 为什么可以放在同一张海报里？",
     "question_en": "These results come from different papers. What connects them into a coherent research story?",
     "answer_cn": "它们围绕同一个器件问题展开，即如何理解并抑制暗电流。不同论文分别提供诊断方法、界面改性验证和工艺及应用证据。需要明确的是，IEEE论文中的PM6部分是对已发表器件数据的模型再分析，不能把所有参考实验都说成我们重新制备的同一批器件。",
-    "answer_en": "The studies address the same device problem: understanding and suppressing dark current. They contribute a diagnostic framework, an interface-modification example, and process-to-application evidence. Importantly, the IEEE paper reanalyzes previously published device data, including the PM6 case. These examples should not be presented as one newly fabricated device batch."
+    "answer_en": "The studies address the same device problem: understanding and suppressing dark current. They contribute a diagnostic framework, an interface-modification example, and process-to-application evidence. Importantly, the IEEE paper reanalyzes previously published device data, including the PM6 case. These examples should not be presented as one newly fabricated device batch.",
+    "module": "01",
+    "angle": "工作主线"
   },
   {
     "number": 5,
     "question_cn": "你们是根据模型设计了热旋涂工艺 还是用模型解释实验结果？",
     "question_en": "Did the model guide the design of thermal spin-coating, or was it used to interpret the experimental results?",
     "answer_cn": "更准确地说，模型提供了漏电诊断框架，并用于解释和检验工艺改善。65 °C是实验优化得到的条件，不是模型直接预测的温度。海报将这几项工作联系为一个物理逻辑，但不意味着模型能自动给出热旋涂配方或最优工艺参数。",
-    "answer_en": "More precisely, the model provides a diagnostic framework and is used to interpret and test the process improvement. The 65 °C condition was selected experimentally; it was not directly predicted by the model. The poster connects the studies through a physical rationale, without implying that the model automatically generates the processing recipe."
+    "answer_en": "More precisely, the model provides a diagnostic framework and is used to interpret and test the process improvement. The 65 °C condition was selected experimentally; it was not directly predicted by the model. The poster connects the studies through a physical rationale, without implying that the model automatically generates the processing recipe.",
+    "module": "01",
+    "angle": "工作主线"
   },
   {
     "number": 6,
     "question_cn": "为什么只比较某一个偏压下的暗电流不够？",
     "question_en": "Why is comparing dark current at a single bias insufficient?",
     "answer_cn": "不同电流分量可能在某个偏压处恰好给出相似的总电流，但在其他偏压下表现不同。M1/M2就是用来说明这一点的。完整J–V曲线同时包含偏压依赖和机制转换的信息，因此，比单点数值更适合判断漏电来源和器件改进方向。",
-    "answer_en": "Different component balances can produce similar total currents at one bias while giving different responses elsewhere. M1 and M2 illustrate this issue. A complete J–V curve contains information about bias dependence and changes in the dominant conduction process, so it is more informative than a single endpoint for diagnosing leakage."
+    "answer_en": "Different component balances can produce similar total currents at one bias while giving different responses elsewhere. M1 and M2 illustrate this issue. A complete J–V curve contains information about bias dependence and changes in the dominant conduction process, so it is more informative than a single endpoint for diagnosing leakage.",
+    "module": "01",
+    "angle": "诊断模型与图示"
   },
   {
     "number": 7,
     "question_cn": "总暗电流为什么要分成三个分量 它们分别代表什么？",
     "question_en": "Why is the total dark current separated into three components, and what does each component represent?",
     "answer_cn": "这里沿用多组分等效电路框架：主结电流描述结相关的二极管响应，欧姆分量描述近似线性的分流漏电，非欧姆分量描述非线性漏电，在这类量子点器件中常与陷阱相关输运联系。它是对实测电流的有效分解，不意味着所有微观输运过程都被唯一识别。",
-    "answer_en": "We use an established equivalent-circuit framework. The main-junction term describes diode-like junction transport, the Ohmic term represents approximately linear shunt leakage, and the non-Ohmic term describes nonlinear leakage often associated with trap-related transport in these devices. This is an effective decomposition of measured current, not a unique identification of every microscopic process."
+    "answer_en": "We use an established equivalent-circuit framework. The main-junction term describes diode-like junction transport, the Ohmic term represents approximately linear shunt leakage, and the non-Ohmic term describes nonlinear leakage often associated with trap-related transport in these devices. This is an effective decomposition of measured current, not a unique identification of every microscopic process.",
+    "module": "01",
+    "angle": "诊断模型与图示"
   },
   {
     "number": 8,
     "question_cn": "欧姆漏电和非欧姆漏电的区别是什么？",
     "question_en": "What is the difference between Ohmic and non-Ohmic leakage?",
     "answer_cn": "欧姆漏电近似随内部电压线性变化，可用分流电阻描述，往往与薄膜不连续、针孔或局部分流通路有关。非欧姆漏电呈非线性变化，模型用幂律项表示，常用于描述陷阱相关的空间电荷限制输运。这里讨论的是有效电流特征，实际机制仍需要表征佐证。",
-    "answer_en": "Ohmic leakage varies approximately linearly with internal voltage and is represented by a shunt resistance. It can be associated with discontinuities or local shunt paths. Non-Ohmic leakage is nonlinear and is represented by a power-law term, often used for trap-related space-charge-limited transport. Independent characterization is still needed to support a microscopic interpretation."
+    "answer_en": "Ohmic leakage varies approximately linearly with internal voltage and is represented by a shunt resistance. It can be associated with discontinuities or local shunt paths. Non-Ohmic leakage is nonlinear and is represented by a power-law term, often used for trap-related space-charge-limited transport. Independent characterization is still needed to support a microscopic interpretation.",
+    "module": "01",
+    "angle": "诊断模型与图示"
   },
   {
     "number": 9,
     "question_cn": "怎样确定拟合分量是可靠的 而不是过拟合？",
     "question_en": "How do you establish that the fitted components are reliable rather than the result of overfitting?",
     "answer_cn": "IEEE工作结合正反偏分段拟合、Levenberg–Marquardt、信赖域和正则化，并比较改性趋势与已知表征。不过，残差小不等于参数唯一；初值、拟合窗口和参数相关性仍需检验，不能声称已排除全部非唯一性。",
-    "answer_en": "The IEEE work combines segmented fitting, Levenberg–Marquardt, trust-region methods, and regularization, and checks agreement with known modification effects. A small residual does not prove uniqueness. Initial conditions, fitting windows, and parameter correlations still require evaluation."
+    "answer_en": "The IEEE work combines segmented fitting, Levenberg–Marquardt, trust-region methods, and regularization, and checks agreement with known modification effects. A small residual does not prove uniqueness. Initial conditions, fitting windows, and parameter correlations still require evaluation.",
+    "module": "01",
+    "angle": "诊断模型与图示"
   },
   {
     "number": 10,
     "question_cn": "仅凭J–V拟合 能直接证明存在针孔或陷阱吗？",
     "question_en": "Can J–V fitting alone prove the presence of pinholes or traps?",
     "answer_cn": "不能。拟合能说明电流响应与某类输运特征相符，但不能直接拍到针孔，也不能单独确定陷阱的微观类型。更有说服力的解释来自电流分量与AFM、GISAXS、载流子动力学或界面表征的一致性。因此，我们把拟合作为诊断依据，而不是唯一的机制证据。",
-    "answer_en": "No. Fitting shows that the electrical response is consistent with a class of transport behavior, but it cannot directly image a pinhole or identify a specific trap species. A stronger interpretation comes from agreement with morphology, packing, carrier-dynamics, and interface measurements. We therefore treat fitting as diagnostic evidence rather than the sole proof of a mechanism."
+    "answer_en": "No. Fitting shows that the electrical response is consistent with a class of transport behavior, but it cannot directly image a pinhole or identify a specific trap species. A stronger interpretation comes from agreement with morphology, packing, carrier-dynamics, and interface measurements. We therefore treat fitting as diagnostic evidence rather than the sole proof of a mechanism.",
+    "module": "01",
+    "angle": "诊断模型与图示"
   },
   {
     "number": 11,
     "question_cn": "M1/M2 N1/N2和25/65 °C器件分别是什么关系？",
     "question_en": "How are the M1/M2, N1/N2, and 25/65 °C devices related?",
     "answer_cn": "它们是不同论证环节中的不同样品组。M1/M2说明相近的单点总暗电流可能隐藏不同分量；N1/N2对应未加和加入PM6缓冲层的比较；25/65 °C对应热旋涂条件的比较。这些编号不能互换，也不能把不同组之间的数值当作完全相同条件下的直接排名。",
-    "answer_en": "They are separate sample groups serving different purposes. M1/M2 illustrate how similar single-bias currents can hide different component balances. N1/N2 compare devices without and with a PM6 buffer. The 25/65 °C pair compares spin-coating conditions. The labels are not interchangeable, and cross-group values should not be treated as a controlled head-to-head ranking."
+    "answer_en": "They are separate sample groups serving different purposes. M1/M2 illustrate how similar single-bias currents can hide different component balances. N1/N2 compare devices without and with a PM6 buffer. The 25/65 °C pair compares spin-coating conditions. The labels are not interchangeable, and cross-group values should not be treated as a controlled head-to-head ranking.",
+    "module": "01",
+    "angle": "诊断模型与图示"
   },
   {
     "number": 12,
     "question_cn": "模型适用于所有光电器件吗 网站需要输入哪些数据？",
     "question_en": "Is this model applicable to all optoelectronic devices, and what data does the online tool require?",
     "answer_cn": "它适合检验具有相应二极管及漏电特征的J–V数据，可以用于PD、LED或PV的电学分析，但并非所有器件和偏压范围都适用。需要提供电压与暗电流数据，并明确单位；若输入的是电流，还应知道器件面积。拟合前应排除限流、接触异常和测量饱和等问题，文件格式以网站界面为准。",
-    "answer_en": "The framework can be useful for electrical J–V analysis of PDs, LEDs, and PV devices when its transport assumptions are appropriate. It is not universal. Input data should include voltage and dark current with clear units, and device area when current density is required. Compliance limits, contact problems, and measurement saturation should be checked before fitting."
+    "answer_en": "The framework can be useful for electrical J–V analysis of PDs, LEDs, and PV devices when its transport assumptions are appropriate. It is not universal. Input data should include voltage and dark current with clear units, and device area when current density is required. Compliance limits, contact problems, and measurement saturation should be checked before fitting.",
+    "module": "01",
+    "angle": "诊断模型与图示"
   },
   {
     "number": 13,
     "question_cn": "PM6是什么 为什么加入PM6后漏电会降低？",
     "question_en": "What is PM6, and why does adding it reduce leakage?",
     "answer_cn": "PM6是一种共轭聚合物，这个案例中用作PbS-EDT界面的超薄缓冲层。参考研究把它的作用与改善界面、覆盖局部不连续区域及降低陷阱相关输运联系起来。对该案例的模型再分析显示欧姆和非欧姆分量都下降；这一电学趋势与相关机制解释一致，但不能仅靠拟合完成微观证明。",
-    "answer_en": "PM6 is a conjugated polymer used here as an ultrathin buffer at the PbS-EDT interface. The reference studies associate it with improved interface quality, coverage of local discontinuities, and reduced trap-related transport. Reanalysis of the case shows lower Ohmic and non-Ohmic components, consistent with those interpretations, although fitting alone does not prove the microscopic mechanism."
+    "answer_en": "PM6 is a conjugated polymer used here as an ultrathin buffer at the PbS-EDT interface. The reference studies associate it with improved interface quality, coverage of local discontinuities, and reduced trap-related transport. Reanalysis of the case shows lower Ohmic and non-Ohmic components, consistent with those interpretations, although fitting alone does not prove the microscopic mechanism.",
+    "module": "02",
+    "angle": "PM6验证与方案比较"
   },
   {
     "number": 14,
     "question_cn": "既然PM6有效 为什么还要研究热旋涂？",
     "question_en": "If PM6 is effective, why investigate thermal spin-coating?",
     "answer_cn": "PM6说明两种漏电能够同步抑制，但也增加了一层材料和一道工序。热旋涂尝试直接改善量子点薄膜形成过程，从而在不新增这类缓冲层的情况下实现同样的抑制目标。这里强调的是工艺和叠层的简洁性，并不是说PM6方案无效或已经被证明与CMOS不兼容。",
-    "answer_en": "PM6 demonstrates joint suppression of the two leakage terms, but it adds a material layer and a processing step. Thermal spin-coating instead modifies QD film formation to reach the same suppression objective without that extra buffer. The motivation is a simpler stack and process; it does not imply that PM6 is ineffective or proven incompatible with CMOS."
+    "answer_en": "PM6 demonstrates joint suppression of the two leakage terms, but it adds a material layer and a processing step. Thermal spin-coating instead modifies QD film formation to reach the same suppression objective without that extra buffer. The motivation is a simpler stack and process; it does not imply that PM6 is ineffective or proven incompatible with CMOS.",
+    "module": "02",
+    "angle": "PM6验证与方案比较"
   },
   {
     "number": 15,
     "question_cn": "PM6器件与热旋涂器件的结构不同 能直接比较吗？",
     "question_en": "Can the PM6-buffered and thermally spin-coated devices be compared directly, given their different structures?",
     "answer_cn": "不能据此作严格的跨体系性能排名。海报比较的是每种方案相对各自对照器件的变化，并用相同的电流分量语言解释结果。它们支持共同的漏电控制思路，但如果要判断哪种方案绝对更好，还需要统一器件结构、材料批次、面积和测量条件的实验。",
-    "answer_en": "Not as a strict cross-platform performance ranking. Each approach is compared with its own reference device, and the same component language is used to interpret the changes. The cases support a shared leakage-control rationale. A definitive ranking would require matched architectures, material batches, active areas, and measurement conditions."
+    "answer_en": "Not as a strict cross-platform performance ranking. Each approach is compared with its own reference device, and the same component language is used to interpret the changes. The cases support a shared leakage-control rationale. A definitive ranking would require matched architectures, material batches, active areas, and measurement conditions.",
+    "module": "02",
+    "angle": "PM6验证与方案比较"
   },
   {
     "number": 16,
     "question_cn": "热旋涂具体改变了什么 与旋涂后退火有什么区别？",
     "question_en": "What does thermal spin-coating change, and how does it differ from annealing after deposition?",
     "answer_cn": "区别在于加热发生在薄膜形成过程中。预热基底改变溶剂挥发和量子点堆积，使结构在沉积时就发生变化；后退火主要作用于已经形成的膜。论文工艺并不是取消后退火，而是在热旋涂之后仍进行85 °C、10 min的退火。因此，应强调改变成膜阶段，而不是声称仅有一个加热步骤。",
-    "answer_en": "Heating acts during film formation, changing solvent evaporation and QD packing while the film is deposited. Post-deposition annealing acts on an already formed film. Importantly, the reported thermal spin-coating process still includes subsequent annealing at 85 °C for 10 minutes. The distinction is control of the deposition stage, not the elimination of post-annealing."
+    "answer_en": "Heating acts during film formation, changing solvent evaporation and QD packing while the film is deposited. Post-deposition annealing acts on an already formed film. Importantly, the reported thermal spin-coating process still includes subsequent annealing at 85 °C for 10 minutes. The distinction is control of the deposition stage, not the elimination of post-annealing.",
+    "module": "03",
+    "angle": "热旋涂机理与器件性能"
   },
   {
     "number": 17,
     "question_cn": "为什么选择65 °C 温度更高是不是更好？",
     "question_en": "Why was 65 °C selected? Would a higher temperature give better results?",
     "answer_cn": "65 °C是在本研究材料和工艺条件下得到的优化结果，不是普适温度。适度升温有利于挥发和致密堆积，但温度继续升高可能带来更明显的堆积不均匀、团聚或局部融合，并引入额外电子态。所以，需要平衡成膜速度与薄膜均匀性，不能简单认为越热越好。",
-    "answer_en": "The 65 °C condition is an experimental optimum for this material and process, not a universal temperature. Moderate heating promotes evaporation and compact packing. Further heating can increase packing heterogeneity, aggregation, or partial fusion and introduce additional electronic states. The optimum therefore balances film-formation kinetics and uniformity rather than maximizing temperature."
+    "answer_en": "The 65 °C condition is an experimental optimum for this material and process, not a universal temperature. Moderate heating promotes evaporation and compact packing. Further heating can increase packing heterogeneity, aggregation, or partial fusion and introduce additional electronic states. The optimum therefore balances film-formation kinetics and uniformity rather than maximizing temperature.",
+    "module": "03",
+    "angle": "热旋涂机理与器件性能"
   },
   {
     "number": 18,
     "question_cn": "为什么更致密但更无序的量子点堆积反而有利？",
     "question_en": "Why can denser but more disordered quantum-dot packing be beneficial?",
     "answer_cn": "这里的无序主要指量子点集合体的位置和堆积有序程度，并不等同于每颗量子点晶体被破坏。器件输运同时取决于点间接触、膜连续性和界面质量。适度致密化可以改善这些因素，即使长程堆积有序度下降也可能有利；但过度致密或融合仍可能损害性能。",
-    "answer_en": "Here, disorder refers mainly to the arrangement of the QD assembly, not necessarily damage to each QD crystal. Device transport also depends on inter-dot contacts, film continuity, and interface quality. Moderate densification can improve these factors even when long-range packing order decreases. Excessive compaction or fusion, however, can still be detrimental."
+    "answer_en": "Here, disorder refers mainly to the arrangement of the QD assembly, not necessarily damage to each QD crystal. Device transport also depends on inter-dot contacts, film continuity, and interface quality. Moderate densification can improve these factors even when long-range packing order decreases. Excessive compaction or fusion, however, can still be detrimental.",
+    "module": "03",
+    "angle": "热旋涂机理与器件性能"
   },
   {
     "number": 19,
     "question_cn": "表面粗糙度降低 是否就能说明漏电一定降低？",
     "question_en": "Does lower surface roughness necessarily imply lower leakage?",
     "answer_cn": "不能。AFM主要反映表面形貌，不能单独判断薄膜内部的连通漏电通路、界面缺陷或接触注入。这里的粗糙度下降是辅助证据，需要结合堆积表征、完整J–V和分量拟合解释。也不应把粗糙度的相对变化直接等同于暗电流降幅，两者没有在海报中建立简单比例关系。",
-    "answer_en": "No. AFM primarily probes surface morphology and cannot alone resolve internal shunt connectivity, interface defects, or contact injection. The lower roughness is supporting evidence that should be considered alongside packing measurements and electrical decomposition. Its relative change should not be equated directly with the dark-current reduction; no simple proportional relationship is established here."
+    "answer_en": "No. AFM primarily probes surface morphology and cannot alone resolve internal shunt connectivity, interface defects, or contact injection. The lower roughness is supporting evidence that should be considered alongside packing measurements and electrical decomposition. Its relative change should not be equated directly with the dark-current reduction; no simple proportional relationship is established here.",
+    "module": "03",
+    "angle": "热旋涂机理与器件性能"
   },
   {
     "number": 20,
     "question_cn": "有什么证据说明热旋涂同时抑制了两种漏电分量？",
     "question_en": "What evidence shows that thermal spin-coating suppresses both leakage components?",
     "answer_cn": "海报Fig. 5使用同一分量分析框架比较25和65 °C器件。在−0.5 V下，欧姆分量由约312降至109 nA/cm²，非欧姆分量由64.4降至29.1 nA/cm²，对应约65%和55%的下降。这与薄膜和界面改善的解释一致，但仍应把它表述为拟合支持的电学证据。",
-    "answer_en": "Poster Fig. 5 compares the 25 and 65 °C devices using the same decomposition framework. At −0.5 V, the Ohmic component decreases from about 312 to 109 nA/cm², and the non-Ohmic component from 64.4 to 29.1 nA/cm², corresponding to approximately 65% and 55% reductions. These are fitting-supported electrical results consistent with improved film and interface quality."
+    "answer_en": "Poster Fig. 5 compares the 25 and 65 °C devices using the same decomposition framework. At −0.5 V, the Ohmic component decreases from about 312 to 109 nA/cm², and the non-Ohmic component from 64.4 to 29.1 nA/cm², corresponding to approximately 65% and 55% reductions. These are fitting-supported electrical results consistent with improved film and interface quality.",
+    "module": "03",
+    "angle": "热旋涂机理与器件性能"
   },
   {
     "number": 21,
     "question_cn": "热旋涂会不会影响量子点配体 能级或载流子输运？",
     "question_en": "Does thermal spin-coating affect the ligands, energy levels, or charge transport?",
     "answer_cn": "输运确实可能受到影响，因为点间耦合和界面接触随成膜改变。论文中光学表征和UPS表明整体光学性质及能级排列变化有限，因此不能简单把性能改善归因于大幅改变带隙。至于配体化学是否完全不变，需要专门化学表征支持，不能只根据电学结果作结论。",
-    "answer_en": "Transport can change because film formation affects inter-dot coupling and interfacial contacts. The reported optical and UPS measurements indicate limited changes in the overall optical properties and energy-level alignment, so a large bandgap change is not the main explanation. Whether the ligand chemistry is entirely unchanged would require dedicated chemical characterization, not electrical results alone."
+    "answer_en": "Transport can change because film formation affects inter-dot coupling and interfacial contacts. The reported optical and UPS measurements indicate limited changes in the overall optical properties and energy-level alignment, so a large bandgap change is not the main explanation. Whether the ligand chemistry is entirely unchanged would require dedicated chemical characterization, not electrical results alone.",
+    "module": "03",
+    "angle": "热旋涂机理与器件性能"
   },
   {
     "number": 22,
     "question_cn": "这种工艺的重复性和大面积均匀性怎么样？",
     "question_en": "How reproducible is the process, and how uniform are the films over larger areas?",
     "answer_cn": "论文提供了器件统计和64 × 64阵列演示，支持该工艺在所研究器件和阵列尺度上的可行性。但这还不能等同于晶圆级均匀性或工业良率验证。如果进一步放大面积，需要系统评估基底温度、墨水批次、膜厚和像素间响应分布，并给出独立批次统计。",
-    "answer_en": "Device statistics and the 64 × 64 array demonstration support feasibility at the investigated device and array scales. They do not establish wafer-scale uniformity or industrial yield. Scaling requires systematic evaluation of substrate temperature, ink batches, film thickness, and pixel-response distributions, together with statistics from independent fabrication batches."
+    "answer_en": "Device statistics and the 64 × 64 array demonstration support feasibility at the investigated device and array scales. They do not establish wafer-scale uniformity or industrial yield. Scaling requires systematic evaluation of substrate temperature, ink batches, film thickness, and pixel-response distributions, together with statistics from independent fabrication batches.",
+    "module": "03",
+    "angle": "热旋涂机理与器件性能"
   },
   {
     "number": 23,
     "question_cn": "为什么暗电流降低的同时 响应度和带宽还能提高？",
     "question_en": "Why do responsivity and bandwidth improve while dark current decreases?",
     "answer_cn": "漏电通路与有用的光生载流子提取不完全相同。更连续的膜和更好的界面能够减少无效漏电及陷阱引起的俘获，同时改善光生载流子提取，因此三项性能可以同步改善。论文中65 °C器件在1310 nm、0 V下响应度达到0.765 A/W，带宽为108 kHz；这些指标应分别按各自测试条件解释。",
-    "answer_en": "Leakage pathways and useful photocarrier extraction are not identical. Better film continuity and interfaces can reduce parasitic current and trapping while improving carrier extraction, allowing dark current, responsivity, and bandwidth to improve together. The 65 °C device reaches 0.765 A/W at 1310 nm and zero bias, with a reported bandwidth of 108 kHz; each metric retains its own measurement conditions."
+    "answer_en": "Leakage pathways and useful photocarrier extraction are not identical. Better film continuity and interfaces can reduce parasitic current and trapping while improving carrier extraction, allowing dark current, responsivity, and bandwidth to improve together. The 65 °C device reaches 0.765 A/W at 1310 nm and zero bias, with a reported bandwidth of 108 kHz; each metric retains its own measurement conditions.",
+    "module": "03",
+    "angle": "热旋涂机理与器件性能"
   },
   {
     "number": 24,
     "question_cn": "探测率是怎么得到的 是否测量了实际噪声？",
     "question_en": "How was the detectivity determined, and was the noise measured directly?",
     "answer_cn": "有实际噪声测量。论文以响应度、有效面积和实测噪声计算比探测率：面积为0.04 cm²，电带宽取1 Hz，噪声采用噪声谱在1 Hz处的测量值；噪声谱测于0 V。峰值为3.57 × 10¹¹ Jones。这不是仅由暗电流套用散粒噪声公式得到的数值，也不代表所有频率和工作点都达到同一探测率。",
-    "answer_en": "Yes. The paper calculates specific detectivity using responsivity, an active area of 0.04 cm², and measured noise at 1 Hz with a 1 Hz electrical bandwidth. The noise spectrum was measured at zero bias. The peak is 3.57 × 10¹¹ Jones. This is not merely a shot-noise estimate from dark current, and it should not be generalized to every frequency or operating point."
+    "answer_en": "Yes. The paper calculates specific detectivity using responsivity, an active area of 0.04 cm², and measured noise at 1 Hz with a 1 Hz electrical bandwidth. The noise spectrum was measured at zero bias. The peak is 3.57 × 10¹¹ Jones. This is not merely a shot-noise estimate from dark current, and it should not be generalized to every frequency or operating point.",
+    "module": "03",
+    "angle": "热旋涂机理与器件性能"
   },
   {
     "number": 25,
     "question_cn": "为什么连续量子点薄膜不需要额外像素隔离 会不会串扰？",
     "question_en": "Why can a continuous quantum-dot film operate without additional pixel isolation? What about pixel crosstalk?",
     "answer_cn": "像素由电极和TFT读出结构定义，而量子点薄膜有限的横向载流子输运有助于限制像素间扩散。论文中的重建图像说明在所演示条件下能够分辨图案，但不能因此声称串扰严格为零。如果要定量评价，还应测量点扩散函数、调制传递函数或相邻像素的串扰矩阵。",
-    "answer_en": "Pixels are defined by the electrodes and TFT readout structure, while limited lateral transport in the QD film helps restrict spreading between pixels. The reconstructed images demonstrate pattern resolution under the reported conditions, but they do not prove zero crosstalk. Quantitative assessment would require a point-spread function, modulation-transfer measurements, or a neighboring-pixel crosstalk matrix."
+    "answer_en": "Pixels are defined by the electrodes and TFT readout structure, while limited lateral transport in the QD film helps restrict spreading between pixels. The reconstructed images demonstrate pattern resolution under the reported conditions, but they do not prove zero crosstalk. Quantitative assessment would require a point-spread function, modulation-transfer measurements, or a neighboring-pixel crosstalk matrix.",
+    "module": "04",
+    "angle": "成像集成与血糖传感"
   },
   {
     "number": 26,
     "question_cn": "这个64 × 64阵列使用的是TFT还是CMOS背板？",
     "question_en": "Does the 64 × 64 array use a TFT or CMOS backplane?",
     "answer_cn": "这里实际展示的是TFT背板，不是CMOS成像芯片。热旋涂的低温和简洁叠层有利于考虑后续集成，但不能把TFT演示直接等同于完成CMOS工艺验证。若转到CMOS，还需要逐项核实溶剂、热预算、电极、污染控制和读出电路兼容性。",
-    "answer_en": "The demonstrated array uses a TFT backplane, not a CMOS imager. The relatively low-temperature process and simple stack motivate further integration, but the TFT demonstration is not a completed CMOS-process qualification. Moving to CMOS would require checking solvent compatibility, thermal budget, electrodes, contamination control, and readout-circuit requirements."
+    "answer_en": "The demonstrated array uses a TFT backplane, not a CMOS imager. The relatively low-temperature process and simple stack motivate further integration, but the TFT demonstration is not a completed CMOS-process qualification. Moving to CMOS would require checking solvent compatibility, thermal budget, electrodes, contamination control, and readout-circuit requirements.",
+    "module": "04",
+    "angle": "成像集成与血糖传感"
   },
   {
     "number": 27,
     "question_cn": "为什么选择940和1300 nm两个波长 为什么采用比值信号？",
     "question_en": "Why were 940 and 1300 nm selected for glucose sensing, and why use a ratiometric signal?",
     "answer_cn": "按照论文的设计，940 nm主要作为参考通道，1300 nm用于获得更敏感的葡萄糖相关光学响应。比值由1300 nm平均光电流除以940 nm平均光电流得到，每个通道平均5帧。这样可以减小部分共同的光强和背景波动，但比值本身并不赋予对葡萄糖的完全特异性。",
-    "answer_en": "In the reported design, 940 nm serves mainly as a reference channel, while 1300 nm provides a more glucose-sensitive optical response. The ratio is the average photocurrent at 1300 nm divided by that at 940 nm, using five frames per channel. This reduces some common fluctuations, but the ratio alone does not provide complete glucose specificity."
+    "answer_en": "In the reported design, 940 nm serves mainly as a reference channel, while 1300 nm provides a more glucose-sensitive optical response. The ratio is the average photocurrent at 1300 nm divided by that at 940 nm, using five frames per channel. This reduces some common fluctuations, but the ratio alone does not provide complete glucose specificity.",
+    "module": "04",
+    "angle": "成像集成与血糖传感"
   },
   {
     "number": 28,
     "question_cn": "怎么排除皮肤 水分 温度和手指压力等因素的干扰？",
     "question_en": "How are interference effects from skin, water, temperature, and finger pressure addressed?",
     "answer_cn": "双波长比值有助于降低共同背景波动，论文还通过帧平均及排除饱和或过弱像素改善信号可靠性。但这些处理不能证明所有生理干扰已被消除。更严格的研究还需要固定光路与按压力、记录温度，并开展跨个体、跨日期及不同皮肤条件下的独立验证。",
-    "answer_en": "Ratiometric detection reduces some common background fluctuations. The reported processing also averages frames and excludes saturated or very weak pixels. These steps do not eliminate all physiological interference. Stronger validation would control the optical geometry and finger pressure, record temperature, and test independent subjects, dates, and skin conditions."
+    "answer_en": "Ratiometric detection reduces some common background fluctuations. The reported processing also averages frames and excludes saturated or very weak pixels. These steps do not eliminate all physiological interference. Stronger validation would control the optical geometry and finger pressure, record temperature, and test independent subjects, dates, and skin conditions.",
+    "module": "04",
+    "angle": "成像集成与血糖传感"
   },
   {
     "number": 29,
     "question_cn": "小于5%的偏差是在什么实验条件下得到的 能用于临床吗？",
     "question_en": "Under what experimental conditions was the deviation below 5% obtained, and is the system ready for clinical use?",
     "answer_cn": "这是在论文报告的指尖检测条件下，把双波长比值经校准得到的结果与商用血糖仪作比较。测量在进食后的不同时间点进行，论文明确称其为初步一致性检查，而不是严格临床验证。不能据此声称已达到临床精度或可替代血糖仪；受试者数量和独立验证设计若被问到，应按实际记录回答，不编造。",
-    "answer_en": "The reported deviation compares calibrated fingertip ratiometric measurements with a commercial glucose meter at different times after food intake. The paper explicitly presents this as a preliminary consistency check, not rigorous clinical validation. It does not establish clinical accuracy or replacement of a glucose meter. Subject numbers and independent-validation details must be answered from the actual study records."
+    "answer_en": "The reported deviation compares calibrated fingertip ratiometric measurements with a commercial glucose meter at different times after food intake. The paper explicitly presents this as a preliminary consistency check, not rigorous clinical validation. It does not establish clinical accuracy or replacement of a glucose meter. Subject numbers and independent-validation details must be answered from the actual study records.",
+    "module": "04",
+    "angle": "成像集成与血糖传感"
   },
   {
     "number": 30,
     "question_cn": "目前最大的局限是什么 下一步准备做什么？",
     "question_en": "What is the main limitation, and what are your next steps?",
     "answer_cn": "器件层面，需要进一步验证分量参数的可辨识性、批次重复性以及更大面积集成的均匀性。应用层面，当前血糖结果仍是原理演示，下一步应加强干扰控制和独立人群验证。因此，我们希望把已有的成膜和漏电优势转化为更稳定、可量化的系统性能，而不是提前宣称临床或工业成熟。",
-    "answer_en": "At the device level, further work should address parameter identifiability, batch reproducibility, and uniformity at larger integration scales. At the application level, glucose sensing remains a proof of concept and needs stronger interference control and independent human validation. The next objective is to translate the film and leakage improvements into robust, quantifiable system performance."
+    "answer_en": "At the device level, further work should address parameter identifiability, batch reproducibility, and uniformity at larger integration scales. At the application level, glucose sensing remains a proof of concept and needs stronger interference control and independent human validation. The next objective is to translate the film and leakage improvements into robust, quantifiable system performance.",
+    "module": "04",
+    "angle": "成像集成与血糖传感"
   },
   {
     "number": 31,
     "question_cn": "总暗电流降低约55%，怎样确认欧姆和非欧姆漏电都下降？换拟合偏压范围后是否稳定，有独立证据吗？",
     "question_en": "The total dark current falls by about 55%. How do you confirm that both Ohmic and non-Ohmic leakage decrease? Are the results stable when the fitting bias range changes, and is there independent evidence?",
     "answer_cn": "在相同模型下，−0.5 V处的欧姆分量由约312降至109 nA/cm²，非欧姆分量由64.4降至29.1 nA/cm²。但这些是拟合得到的分量。当前海报没有展示不同拟合窗口的敏感性分析或参数置信区间，所以不能声称已经排除拟合非唯一性。形貌、阻抗和载流子动力学表征支持薄膜与界面改善的解释，但不是对两个分量的独立定量测量。若要进一步验证，应比较不同初值和偏压窗口，并结合温度依赖、面积依赖或局部电流测量；这些应作为待补充验证，而不是说已经做过。",
-    "answer_en": "Using the same model, the Ohmic component falls from about 312 to 109 nA/cm² at −0.5 V, while the non-Ohmic component falls from 64.4 to 29.1 nA/cm². These are model-derived values. The poster does not show fitting-window sensitivity or parameter confidence intervals, so we do not claim a unique decomposition. Structural, impedance, and carrier-dynamics measurements support improved film and interface quality, but they do not independently quantify the two currents. Bias-window, initial-condition, temperature-dependent, or local-current checks would provide further validation."
+    "answer_en": "Using the same model, the Ohmic component falls from about 312 to 109 nA/cm² at −0.5 V, while the non-Ohmic component falls from 64.4 to 29.1 nA/cm². These are model-derived values. The poster does not show fitting-window sensitivity or parameter confidence intervals, so we do not claim a unique decomposition. Structural, impedance, and carrier-dynamics measurements support improved film and interface quality, but they do not independently quantify the two currents. Bias-window, initial-condition, temperature-dependent, or local-current checks would provide further validation.",
+    "module": "03",
+    "angle": "热旋涂机理与器件性能"
   },
   {
     "number": 32,
     "question_cn": "AFM粗糙度从0.927降到0.840 nm，能证明薄膜更致密吗？有没有截面或统计表征，怎样区分致密化和界面阻挡？",
     "question_en": "AFM roughness decreases from 0.927 to 0.840 nm. Does this establish a denser film? Is there cross-sectional or statistical evidence, and how do you distinguish densification from interfacial blocking?",
     "answer_cn": "AFM反映局部表面形貌，粗糙度降低本身不能直接证明整个薄膜体密度增加，也不能排除界面阻挡变化。GISAXS提供了集合体堆积相关性变化的证据，与更紧凑堆积的解释一致；TRPL和阻抗结果则支持载流子动力学及界面变化。海报中没有展示能够单独判定体密度的截面实测证据。更稳妥的结论是成膜与界面共同改善，而不是把全部漏电下降归因于RMS变化。进一步区分两者，需要多区域统计及专门的结构和界面电学测量。",
-    "answer_en": "AFM probes local surface morphology, so lower roughness alone does not establish higher bulk density or exclude changes in interfacial blocking. GISAXS provides ensemble packing evidence consistent with a more compact assembly, while TRPL and impedance measurements support changes in carrier dynamics and interfaces. The poster does not present cross-sectional measurements that independently determine bulk density. We therefore attribute the improvement to film formation and interface quality together, rather than to RMS roughness alone. Spatial statistics and dedicated structural and interface measurements would help separate their contributions."
+    "answer_en": "AFM probes local surface morphology, so lower roughness alone does not establish higher bulk density or exclude changes in interfacial blocking. GISAXS provides ensemble packing evidence consistent with a more compact assembly, while TRPL and impedance measurements support changes in carrier dynamics and interfaces. The poster does not present cross-sectional measurements that independently determine bulk density. We therefore attribute the improvement to film formation and interface quality together, rather than to RMS roughness alone. Spatial statistics and dedicated structural and interface measurements would help separate their contributions.",
+    "module": "03",
+    "angle": "热旋涂机理与器件性能"
   },
   {
     "number": 33,
     "question_cn": "PM6的拟合降幅更大，为什么还选择65 °C热旋涂？只是少一道工序，还是均匀性和良率也更好？工艺窗口有多宽？",
     "question_en": "The PM6 case shows larger fitted reductions. Why choose 65 °C thermal spin-coating? Is it only a simpler process, or are uniformity and yield also better? How wide is the process window?",
     "answer_cn": "PM6与热旋涂来自不同器件体系及各自对照，不能直接按降幅排名。热旋涂的明确优势是在不新增缓冲材料及相应涂覆步骤的情况下实现双漏电抑制。阵列演示支持其集成可行性，但不能据此宣称量产良率或大面积均匀性一定优于PM6。65 °C是在论文比较条件下的优选条件；当前海报没有给出足够密集的邻近温度扫描和多批次统计，因此不能给出正负几度的制造容差。要比较良率与窗口，需要统一结构、批次和测试条件的实验。",
-    "answer_en": "The PM6 and thermal-process results come from different device systems and their own controls, so the reduction percentages cannot be ranked directly. Thermal spin-coating suppresses both leakage terms without adding a buffer material or coating step. Array operation supports integration feasibility, but does not establish better manufacturing yield or large-area uniformity than PM6. Sixty-five degrees Celsius is the preferred condition in the reported comparison. The poster does not establish a temperature tolerance window; that requires denser temperature sampling and matched batch statistics."
+    "answer_en": "The PM6 and thermal-process results come from different device systems and their own controls, so the reduction percentages cannot be ranked directly. Thermal spin-coating suppresses both leakage terms without adding a buffer material or coating step. Array operation supports integration feasibility, but does not establish better manufacturing yield or large-area uniformity than PM6. Sixty-five degrees Celsius is the preferred condition in the reported comparison. The poster does not establish a temperature tolerance window; that requires denser temperature sampling and matched batch statistics.",
+    "module": "02",
+    "angle": "PM6验证与方案比较"
   },
   {
     "number": 34,
     "question_cn": "探测率从1.89 × 10¹¹升至3.57 × 10¹¹ Jones，是用实测噪声还是散粒噪声估算？在实际工作偏压、频率和读出带宽下，哪个噪声占主导？",
     "question_en": "Detectivity increases from 1.89 × 10¹¹ to 3.57 × 10¹¹ Jones. Was measured noise used, or a shot-noise estimate? Which noise source dominates at the actual operating bias, frequency, and readout bandwidth?",
     "answer_cn": "论文使用实测噪声：以0 V噪声谱在1 Hz处的测量值，结合响应度、0.04 cm²面积和1 Hz电带宽计算探测率，并不是只按暗电流估算散粒噪声。这个峰值只对应特定条件，不能直接当作阵列实际帧率下的系统探测率，也不能与108 kHz带宽指标混为同一频率的性能。工作点下谁占主导，需要在相应频率和偏压测量并区分低频噪声、散粒噪声及读出噪声；海报不足以给出各项占比。",
-    "answer_en": "Measured noise was used. The paper uses the zero-bias noise spectrum at 1 Hz, responsivity, an active area of 0.04 cm², and a 1 Hz electrical bandwidth. This is not simply a shot-noise estimate from dark current. The peak should not be transferred directly to the array frame rate or interpreted as detectivity at the reported 108 kHz bandwidth. The relative contributions of low-frequency, shot, and readout noise must be evaluated at the actual operating point; the poster does not quantify those fractions."
+    "answer_en": "Measured noise was used. The paper uses the zero-bias noise spectrum at 1 Hz, responsivity, an active area of 0.04 cm², and a 1 Hz electrical bandwidth. This is not simply a shot-noise estimate from dark current. The peak should not be transferred directly to the array frame rate or interpreted as detectivity at the reported 108 kHz bandwidth. The relative contributions of low-frequency, shot, and readout noise must be evaluated at the actual operating point; the poster does not quantify those fractions.",
+    "module": "03",
+    "angle": "热旋涂机理与器件性能"
   },
   {
     "number": 35,
     "question_cn": "连续量子点膜没有像素隔离，单独照亮一个像素时邻像素会收到多少信号？像素间距继续缩小时，串扰会成为限制吗？",
     "question_en": "With a continuous QD film and no pixel isolation, how much signal reaches neighboring pixels when one pixel is illuminated? Could crosstalk become limiting as the pixel pitch decreases?",
     "answer_cn": "像素由电极及TFT读出结构定义，有限的横向输运有助于限制扩散。现有重建图像支持演示条件下的图案分辨能力，但不能证明串扰为零，海报也没有给出邻像素串扰比例。定量验证可采用1310 nm局域照明，在标定光斑、散射背景和读出耦合后比较被照像素与邻像素响应，或测量点扩散函数和调制传递函数。像素间距减小时，需要重新验证，不能仅由64 × 64图像外推。",
-    "answer_en": "Electrode-defined pixels and limited lateral transport help restrict signal spreading. The reconstructed patterns demonstrate resolution under the reported conditions, but do not establish zero crosstalk, and the poster gives no neighboring-pixel crosstalk ratio. A localized 1310 nm illumination test could compare the illuminated pixel with its neighbors after accounting for spot size, optical scattering, and readout coupling. Point-spread or modulation-transfer measurements would also help. Crosstalk must be reassessed at smaller pixel pitches rather than extrapolated from the 64 × 64 images."
+    "answer_en": "Electrode-defined pixels and limited lateral transport help restrict signal spreading. The reconstructed patterns demonstrate resolution under the reported conditions, but do not establish zero crosstalk, and the poster gives no neighboring-pixel crosstalk ratio. A localized 1310 nm illumination test could compare the illuminated pixel with its neighbors after accounting for spot size, optical scattering, and readout coupling. Point-spread or modulation-transfer measurements would also help. Crosstalk must be reassessed at smaller pixel pitches rather than extrapolated from the 64 × 64 images.",
+    "module": "04",
+    "angle": "成像集成与血糖传感"
   },
   {
     "number": 36,
     "question_cn": "940/1300 nm比值中有多少信号真正来自血糖，而不是散射、按压力、温度或血流？小于5%的偏差能在多位受试者上复现吗？",
     "question_en": "How much of the 940/1300 nm ratio reflects glucose rather than scattering, finger pressure, temperature, or blood flow? Can the deviation below 5% be reproduced across multiple subjects?",
     "answer_cn": "双波长比值可以降低部分共同背景波动，但不能完全消除波长相关散射、按压力、温度和血流影响，也不能单独保证葡萄糖特异性。小于5%的偏差来自论文报告条件下，经校准的指尖信号与商用血糖仪的初步一致性比较。它不足以证明同一校准能跨人群复现。受试者数量、校准是否独立以及测试集如何划分，需要按原始记录确认。下一步应控制光路、压力和温度，并开展跨日期及独立受试者验证。",
-    "answer_en": "Ratiometric detection reduces some common background fluctuations, but does not eliminate wavelength-dependent scattering, pressure, temperature, or blood-flow effects, and does not by itself guarantee glucose specificity. The deviation below five percent is a preliminary comparison between calibrated fingertip measurements and a commercial meter under the reported conditions. It does not establish that one calibration generalizes across subjects. Subject numbers and independent calibration or test-set details must be checked against the original records. Controlled measurements across dates and independent subjects are needed."
+    "answer_en": "Ratiometric detection reduces some common background fluctuations, but does not eliminate wavelength-dependent scattering, pressure, temperature, or blood-flow effects, and does not by itself guarantee glucose specificity. The deviation below five percent is a preliminary comparison between calibrated fingertip measurements and a commercial meter under the reported conditions. It does not establish that one calibration generalizes across subjects. Subject numbers and independent calibration or test-set details must be checked against the original records. Controlled measurements across dates and independent subjects are needed.",
+    "module": "04",
+    "angle": "成像集成与血糖传感"
   },
   {
     "number": 37,
-    "angle": "机理与漏电解析",
+    "angle": "诊断模型与图示",
     "question_cn": "J–V分量拟合中的Rs、Rsh是自由参数，还是独立测试标定的？参数选择会影响电流占比吗？",
     "question_en": "Are series and shunt resistances fitted parameters or independently calibrated values? Can their selection change the fitted current fractions?",
     "answer_cn": "对M1/M2诊断分析，补充资料S2明确给出了Rs、Rsh的拟合边界；它们是在约束内拟合的模型系数，不是每个器件都提前独立标定后固定。由于拟合的是电流密度，电阻采用Ω cm²的面积归一化单位。Rs通过内部电压影响各支路，Rsh直接控制线性分量，所以边界与参数相关性确实可能改变占比。应比较合理边界、多初值及去项重拟合下的主导趋势；很小的残差不能证明参数唯一。独立电学测量可以提供额外约束，但不能把它与当前所有拟合系数直接等同。",
-    "answer_en": "For the M1/M2 diagnostic analysis, Supplementary Section S2 specifies fitting bounds for the series and shunt resistances. They are constrained model coefficients, not independently calibrated and fixed for every device. Since current density is fitted, the resistances are area-normalized in ohm square centimeters. Series resistance changes the internal voltage, and shunt resistance sets the linear contribution, so bounds and parameter correlations can affect the fractions. We assess dominant trends across alternative fits; a small residual does not establish unique parameters."
+    "answer_en": "For the M1/M2 diagnostic analysis, Supplementary Section S2 specifies fitting bounds for the series and shunt resistances. They are constrained model coefficients, not independently calibrated and fixed for every device. Since current density is fitted, the resistances are area-normalized in ohm square centimeters. Series resistance changes the internal voltage, and shunt resistance sets the linear contribution, so bounds and parameter correlations can affect the fractions. We assess dominant trends across alternative fits; a small residual does not establish unique parameters.",
+    "module": "01"
   },
   {
     "number": 38,
-    "angle": "机理与漏电解析",
+    "angle": "诊断模型与图示",
     "question_cn": "如果日常筛选不做完整J–V扫描，建议测哪几个偏压点？三点筛查能代替完整曲线吗？",
     "question_en": "Which bias points would you recommend for rapid device screening without a full J–V sweep? Can three-point screening replace the complete curve?",
     "answer_cn": "可以把−0.1、−0.3、−0.5 V作为与本海报一致的初筛点，分别观察较弱反偏、中间形状和比较终点。除终点电流外，还可比较端点比值和中间点偏离程度。它只是一个实用初筛建议，不是已验证适用于所有器件的最优采样方案，更不能仅凭三点唯一分解全部电流。需要统一暗态、温度、等待时间、扫描历史和量程；发现异常曲率、滞后或接近噪声底时，应补测完整曲线。",
-    "answer_en": "A practical starting set is −0.1, −0.3, and −0.5 V, matching the poster and sampling weak reverse bias, intermediate shape, and the comparison endpoint. Endpoint ratios and intermediate deviations add information beyond one current value. This is a screening suggestion, not a universally validated optimum or a replacement for full-curve decomposition. Dark conditions, temperature, settling, scan history, and instrument range should be controlled. Unusual curvature, hysteresis, or near-noise-floor signals should trigger a complete measurement."
+    "answer_en": "A practical starting set is −0.1, −0.3, and −0.5 V, matching the poster and sampling weak reverse bias, intermediate shape, and the comparison endpoint. Endpoint ratios and intermediate deviations add information beyond one current value. This is a screening suggestion, not a universally validated optimum or a replacement for full-curve decomposition. Dark conditions, temperature, settling, scan history, and instrument range should be controlled. Unusual curvature, hysteresis, or near-noise-floor signals should trigger a complete measurement.",
+    "module": "01"
   },
   {
     "number": 39,
-    "angle": "机理与漏电解析",
+    "angle": "诊断模型与图示",
     "question_cn": "非欧姆漏电主要来自量子点薄膜内部，还是ZnO/QD及上方接触界面的陷阱？怎样区分？",
     "question_en": "Does non-Ohmic leakage originate mainly inside the QD film or at its interfaces, and how can the contributions be separated?",
     "answer_cn": "仅凭幂律拟合不能给陷阱定位，也不能给出体相和界面各占多少。量子点膜中的缺陷可位于量子点表面、点间连接区域或功能层界面，不能一律等同于传统连续晶体的晶界。还要注意结构中PbS-ink与MoOx之间有PbS-EDT层，并非一个简单直接接触。区分来源需要选择性改变某一界面、设置单载流子或厚度对照，再结合温度依赖、瞬态和光谱表征。现有TRPL、SCLC及阻抗结果支持输运和缺陷改善，但不唯一确定其空间来源。",
-    "answer_en": "A power-law fit cannot locate traps or assign separate bulk and interface percentages. Defects may occur on QD surfaces, between dots, or at functional-layer interfaces. The actual stack also includes PbS-EDT between the PbS-ink layer and MoOx, so the top contact should not be reduced to one direct interface. Selective interface modifications, single-carrier or thickness controls, and temperature-dependent, transient, or spectroscopic measurements would help. Existing TRPL, space-charge-limited-current, and impedance results support improvement without uniquely localizing the defects."
+    "answer_en": "A power-law fit cannot locate traps or assign separate bulk and interface percentages. Defects may occur on QD surfaces, between dots, or at functional-layer interfaces. The actual stack also includes PbS-EDT between the PbS-ink layer and MoOx, so the top contact should not be reduced to one direct interface. Selective interface modifications, single-carrier or thickness controls, and temperature-dependent, transient, or spectroscopic measurements would help. Existing TRPL, space-charge-limited-current, and impedance results support improvement without uniquely localizing the defects.",
+    "module": "01"
   },
   {
     "number": 40,
-    "angle": "热旋涂工艺",
+    "angle": "热旋涂机理与器件性能",
     "question_cn": "65 °C附近的工艺窗口有多宽？更高温会溶剂沸腾或量子点团聚吗？最低有效温度是多少？",
     "question_en": "How tolerant is the process around 65 °C? Does higher temperature cause solvent boiling or QD aggregation, and what is the minimum effective temperature?",
     "answer_cn": "65 °C是当前材料和所比较条件下的优选点，海报没有给出足够密集的温度扫描来确定最低有效温度或制造容差。更高温可能导致挥发过快、堆积不均、团聚或局部融合；论文的高温形貌讨论也提示这种权衡。但不能在没有原位温度或气泡证据时把性能变化直接归因于溶剂沸腾。实际窗口还取决于混合溶剂、墨水浓度、基底热容、旋涂速度和环境，需结合温度记录与多批次统计确定。",
-    "answer_en": "Sixty-five degrees Celsius is the preferred point for the reported material and comparison. The poster does not establish a minimum effective temperature or manufacturing tolerance. Higher temperature can accelerate drying excessively and promote packing heterogeneity, aggregation, or partial fusion. However, solvent boiling should not be claimed without direct temperature or bubble evidence. The usable window also depends on solvent composition, ink concentration, substrate heat capacity, spin conditions, and environment, and requires denser temperature sampling and batch statistics."
+    "answer_en": "Sixty-five degrees Celsius is the preferred point for the reported material and comparison. The poster does not establish a minimum effective temperature or manufacturing tolerance. Higher temperature can accelerate drying excessively and promote packing heterogeneity, aggregation, or partial fusion. However, solvent boiling should not be claimed without direct temperature or bubble evidence. The usable window also depends on solvent composition, ink concentration, substrate heat capacity, spin conditions, and environment, and requires denser temperature sampling and batch statistics.",
+    "module": "03"
   },
   {
     "number": 41,
-    "angle": "热旋涂工艺",
+    "angle": "PM6验证与方案比较",
     "question_cn": "热旋涂与PM6相比，偏压老化、湿热和长期稳定性到底哪一个更好？",
     "question_en": "How does thermal spin-coating compare with PM6 under bias stress, damp heat, and long-term stability tests?",
     "answer_cn": "现有材料不足以对这两种方案在偏压或湿热应力下作排名。热旋涂论文报告的是25与65 °C器件在室温、真空保护、未封装条件下的长期储存比较，包括9个月结果。储存稳定性不能等同于持续偏压运行，也不能等同于湿热测试；该组比较也不是PM6与热旋涂的同结构对照。若要回答孰优孰劣，需要匹配结构、封装和批次，并规定偏压、温湿度、光照及失效判据。",
-    "answer_en": "The available evidence does not support ranking the two approaches under bias or damp-heat stress. The thermal-process paper reports storage comparisons between 25 and 65 °C devices at room temperature under vacuum protection without encapsulation, including nine-month results. Storage is not equivalent to biased operation or damp-heat testing, and this is not a matched PM6 comparison. A fair ranking would require matched structures, encapsulation, batches, stress conditions, and failure criteria."
+    "answer_en": "The available evidence does not support ranking the two approaches under bias or damp-heat stress. The thermal-process paper reports storage comparisons between 25 and 65 °C devices at room temperature under vacuum protection without encapsulation, including nine-month results. Storage is not equivalent to biased operation or damp-heat testing, and this is not a matched PM6 comparison. A fair ranking would require matched structures, encapsulation, batches, stress conditions, and failure criteria.",
+    "module": "02"
   },
   {
     "number": 42,
-    "angle": "热旋涂工艺",
+    "angle": "热旋涂机理与器件性能",
     "question_cn": "RMS只降低约9.4%，为什么漏电能显著下降？配体排布或界面缺陷是否也发生了变化？",
     "question_en": "Why does leakage decrease substantially when RMS roughness improves by only about 9.4%? Could ligand arrangement or interface defects also change?",
     "answer_cn": "RMS是局部表面高度的统计量，与电流并没有简单线性比例关系。少量连通漏电通路的改变就可能显著影响总电流，而未必带来同等幅度的平均粗糙度变化。量子点接触、电子耦合及陷阱相关过程也可能改变；论文中的TRPL、SCLC和阻抗结果提供了相应支持。但具体配体取向、配位或化学成分是否改变，需要FTIR、XPS或其他专门化学表征，不能单凭漏电下降确定。",
-    "answer_en": "RMS is a local surface-height statistic and is not linearly proportional to current. Changes in a small number of connected leakage paths can strongly affect current without a comparable change in average roughness. Inter-dot contacts, electronic coupling, and trapping can also change; TRPL, space-charge-limited-current, and impedance measurements provide supporting evidence. Specific changes in ligand orientation, coordination, or chemistry would require dedicated measurements such as FTIR or XPS, rather than inference from leakage alone."
+    "answer_en": "RMS is a local surface-height statistic and is not linearly proportional to current. Changes in a small number of connected leakage paths can strongly affect current without a comparable change in average roughness. Inter-dot contacts, electronic coupling, and trapping can also change; TRPL, space-charge-limited-current, and impedance measurements provide supporting evidence. Specific changes in ligand orientation, coordination, or chemistry would require dedicated measurements such as FTIR or XPS, rather than inference from leakage alone.",
+    "module": "03"
   },
   {
     "number": 43,
-    "angle": "光电器件性能",
+    "angle": "热旋涂机理与器件性能",
     "question_cn": "带宽从66提高到108 kHz，主要是电阻降低，还是结电容变化？能用RC解释吗？",
     "question_en": "Does the bandwidth increase from 66 to 108 kHz mainly result from lower resistance or changed junction capacitance? Is it an RC effect?",
     "answer_cn": "带宽实测结果说明动态响应改善，但当前证据不能把提升唯一分配给电阻或结电容。更高分流电阻有利于降漏电，它并不是简单带宽表达式中的传输电阻；阻抗拟合里的复合电阻也不能直接当作串联电阻。陷阱俘获、载流子提取、渡越和外部读出负载都可能影响响应。要定量拆分RC与输运限制，需要同工作点下的电容及阻抗测量、负载去嵌和瞬态分析；目前可说结果与改善输运和减少俘获一致。",
-    "answer_en": "The measured bandwidth shows improved dynamics, but does not uniquely separate resistance and capacitance effects. Higher shunt resistance reduces leakage; it is not the transport resistance in a simple bandwidth expression. Recombination resistance from impedance fitting is also not automatically series resistance. Trapping, extraction, transit, and readout loading can all matter. Separating these effects requires capacitance and impedance measurements at the operating point, load de-embedding, and transient analysis. The current evidence is consistent with improved transport and reduced trapping."
+    "answer_en": "The measured bandwidth shows improved dynamics, but does not uniquely separate resistance and capacitance effects. Higher shunt resistance reduces leakage; it is not the transport resistance in a simple bandwidth expression. Recombination resistance from impedance fitting is also not automatically series resistance. Trapping, extraction, transit, and readout loading can all matter. Separating these effects requires capacitance and impedance measurements at the operating point, load de-embedding, and transient analysis. The current evidence is consistent with improved transport and reduced trapping.",
+    "module": "03"
   },
   {
     "number": 44,
-    "angle": "光电器件性能",
+    "angle": "热旋涂机理与器件性能",
     "question_cn": "热旋涂作用于PbS-ink层，65 °C会不会损伤相邻的ZnO和MoOx层？",
     "question_en": "Could the 65 °C process damage the neighboring ZnO or MoOx layers when thermal spin-coating targets the PbS-ink layer?",
     "answer_cn": "先看实际制备顺序。ZnO在PbS-ink旋涂前已经沉积，因此会经历基底加热及墨水接触；“调控PbS-ink成膜”不意味着只有这一层被局部加热。MoOx和Ag是在PbS及PbS-EDT成膜之后才蒸镀，所以它们没有经历这一步65 °C热旋涂。65 °C较温和，但不能据此认定ZnO表面完全不变；若要排除其影响，需要空白热处理、溶剂对照及接触或表面电学表征。",
-    "answer_en": "The fabrication order is important. ZnO is deposited before the PbS-ink layer, so it experiences substrate heating and ink contact. Targeting QD film formation does not mean only that layer is heated locally. MoOx and Ag are evaporated after the PbS and PbS-EDT films are formed, so they do not experience this spin-coating step. Although 65 °C is relatively mild, excluding changes to ZnO would require thermal and solvent controls plus surface or contact characterization."
+    "answer_en": "The fabrication order is important. ZnO is deposited before the PbS-ink layer, so it experiences substrate heating and ink contact. Targeting QD film formation does not mean only that layer is heated locally. MoOx and Ag are evaporated after the PbS and PbS-EDT films are formed, so they do not experience this spin-coating step. Although 65 °C is relatively mild, excluding changes to ZnO would require thermal and solvent controls plus surface or contact characterization.",
+    "module": "03"
   },
   {
     "number": 45,
-    "angle": "TFT成像与无创传感",
+    "angle": "成像集成与血糖传感",
     "question_cn": "量子点膜是在TFT背板上直接热旋涂，还是先成膜再转移？会不会热损伤背板？",
     "question_en": "Are the QD films thermally spin-coated directly on the TFT backplane or transferred after fabrication? Could the process thermally damage the backplane?",
     "answer_cn": "论文明确描述在TFT背板上直接制备量子点探测阵列，最后完成公共顶电极连接，不是先在另一基底成膜再转移。阵列能够工作支持集成可行性，但不能据此证明背板完全没有参数漂移。评估兼容性需要考虑完整热预算、溶剂和后续步骤，并比较处理前后的阈值、电流泄漏、迁移率和像素响应。65 °C本身较温和，不能代替这些背板验证。",
-    "answer_en": "The paper describes direct fabrication of the QD detector array on the TFT backplane, followed by the common top-electrode connection, rather than transfer of a separately formed film. Array operation supports integration feasibility, but does not establish zero backplane parameter drift. Compatibility should be evaluated over the complete thermal and chemical process by comparing threshold voltage, leakage, mobility, and pixel response before and after processing. The relatively mild temperature alone does not replace those checks."
+    "answer_en": "The paper describes direct fabrication of the QD detector array on the TFT backplane, followed by the common top-electrode connection, rather than transfer of a separately formed film. Array operation supports integration feasibility, but does not establish zero backplane parameter drift. Compatibility should be evaluated over the complete thermal and chemical process by comparing threshold voltage, leakage, mobility, and pixel response before and after processing. The relatively mild temperature alone does not replace those checks.",
+    "module": "04"
   },
   {
     "number": 46,
-    "angle": "TFT成像与无创传感",
+    "angle": "成像集成与血糖传感",
     "question_cn": "血糖结果是离体溶液测试，还是人体在体指尖测试？皮肤散射与水分会造成多大干扰？",
     "question_en": "Were the glucose results measured in an ex vivo solution or on a human fingertip in vivo? How much interference comes from skin scattering and water?",
     "answer_cn": "论文报告的是人体指尖光学测量，在进食后的不同时间点与商用血糖仪比较，并非仅用离体葡萄糖溶液。双波长比值、帧平均和像素筛选能改善部分背景与读出波动，但没有把水分、散射、压力和温度的独立贡献逐项量化，因此不能给出确定的干扰比例，也不能说已经全部消除。后续需要控制光路、按压力与温度，并开展跨日期、独立受试者及独立校准验证。",
-    "answer_en": "The paper reports optical fingertip measurements in vivo at different times after food intake, compared with a commercial glucose meter, rather than only an ex vivo glucose solution. Ratiometric analysis, frame averaging, and pixel selection reduce some fluctuations. However, the individual contributions of water, scattering, pressure, and temperature were not separately quantified, so no specific interference percentage or complete cancellation can be claimed. Controlled geometry, pressure, temperature, and independent validation across dates and subjects are needed."
+    "answer_en": "The paper reports optical fingertip measurements in vivo at different times after food intake, compared with a commercial glucose meter, rather than only an ex vivo glucose solution. Ratiometric analysis, frame averaging, and pixel selection reduce some fluctuations. However, the individual contributions of water, scattering, pressure, and temperature were not separately quantified, so no specific interference percentage or complete cancellation can be claimed. Controlled geometry, pressure, temperature, and independent validation across dates and subjects are needed.",
+    "module": "04"
   },
   {
     "number": 47,
-    "angle": "TFT成像与无创传感",
+    "angle": "成像集成与血糖传感",
     "question_cn": "从小尺寸样品扩展到大面阵或晶圆级制备，热旋涂会遇到哪些主要工艺难点？",
     "question_en": "What are the main challenges when scaling thermal spin-coating from small samples to large arrays or wafer-scale fabrication?",
     "answer_cn": "关键是同时控制温度场与干燥过程：大基底的温度均匀性、滴液冷却、铺展、挥发、边缘堆积和膜厚分布都可能改变。还要兼顾背板表面形貌、润湿性、材料批次和缺陷尾部分布。现有64 × 64演示不等于晶圆级良率验证。放大时应绘制温度、膜厚、暗电流和像素响应的空间分布，开展多批次统计，并重新评估串扰；也不能直接假定小样品的65 °C窗口原样适用于大面积。",
-    "answer_en": "Scaling requires simultaneous control of temperature and drying. Substrate temperature uniformity, cooling during dispensing, spreading, evaporation, edge accumulation, and thickness distribution can all change. Backplane topography, wetting, material batches, and defect tails also matter. The 64 × 64 demonstration does not establish wafer-scale yield. Scale-up should include spatial maps of temperature, thickness, dark current, and pixel response, plus batch statistics and crosstalk assessment. The small-sample temperature window should not be assumed to transfer unchanged."
+    "answer_en": "Scaling requires simultaneous control of temperature and drying. Substrate temperature uniformity, cooling during dispensing, spreading, evaporation, edge accumulation, and thickness distribution can all change. Backplane topography, wetting, material batches, and defect tails also matter. The 64 × 64 demonstration does not establish wafer-scale yield. Scale-up should include spatial maps of temperature, thickness, dark current, and pixel response, plus batch statistics and crosstalk assessment. The small-sample temperature window should not be assumed to transfer unchanged.",
+    "module": "04"
   },
   {
     "number": 48,
-    "angle": "机理与漏电解析",
+    "angle": "诊断模型与图示",
     "question_cn": "六个拟合参数怎样保证唯一性？指数m具体是多少，能据此认定SCLC、陷阱填充或陷阱辅助隧穿吗？",
     "question_en": "How is uniqueness addressed with six fitting parameters? What is the exponent m, and can it uniquely identify space-charge-limited current, trap filling, or trap-assisted tunneling?",
     "answer_cn": "不能保证所有参数都有唯一的微观解释。手稿通过给定边界、多初值、去项重拟合和指数剖面检查主导趋势，而不是证明全局唯一。提供的补充表S1中，M1/M2显示解的m为3.2，正好达到名义上界；M2的非线性系数又很小，所以不能把该指数当作独立测得的陷阱参数。理想SCLC的平方律只在特定接触和输运假设下成立；大于2的幂律也不是TFL或TAT的唯一指纹。还需要温度、厚度、场依赖及独立陷阱证据，具体报值应对应展示曲线的保存参数。",
-    "answer_en": "We do not guarantee a unique microscopic interpretation of every parameter. Bounds, multiple starts, term-removal refits, and exponent profiles test persistent trends rather than prove global uniqueness. In the supplied supplementary table, the displayed M1/M2 exponents are 3.2, at the nominal upper bound; the nonlinear coefficient for M2 is also very small. The exponent is therefore not an independently measured trap parameter. Ideal square-law behavior requires specific assumptions, and an exponent above two is not a unique fingerprint of trap filling or tunneling."
+    "answer_en": "We do not guarantee a unique microscopic interpretation of every parameter. Bounds, multiple starts, term-removal refits, and exponent profiles test persistent trends rather than prove global uniqueness. In the supplied supplementary table, the displayed M1/M2 exponents are 3.2, at the nominal upper bound; the nonlinear coefficient for M2 is also very small. The exponent is therefore not an independently measured trap parameter. Ideal square-law behavior requires specific assumptions, and an exponent above two is not a unique fingerprint of trap filling or tunneling.",
+    "module": "01"
   },
   {
     "number": 49,
-    "angle": "机理与漏电解析",
+    "angle": "诊断模型与图示",
     "question_cn": "1,045条数据来自本组器件库还是文献汇总？M1/M2是同批工艺波动，还是专门制备的不同对照？",
     "question_en": "Are the 1,045 records from your own device measurements or a literature compilation? Are M1/M2 same-batch variations or deliberately fabricated controls?",
     "answer_cn": "手稿描述的是本组PbS量子点PD电学测量记录库，保留制备来源和日期，并非从文献图中汇集1,045条曲线。这里应说测量记录，而不是1,045个独立器件；进入拟合与选例还需要质量筛选。M1/M2按相近电学响应筛选，用来检验终点接近时中间形状仍可不同，并非由编号定义的一组专门工艺对照。是否同批、同工艺，必须核对来源标识，不能仅凭M1/M2两个名字作判断。",
-    "answer_en": "The manuscript describes a group PbS-QD photodiode measurement archive with preparation-source and date identifiers, not 1,045 curves digitized from the literature. These are measurement records, not necessarily independent devices, and fitting or example selection applies further criteria. M1/M2 were selected by similar electrical response to examine hidden shape differences. Their labels do not define a deliberately fabricated control pair. Whether they share a fabrication batch or process must be checked from the source identifiers."
+    "answer_en": "The manuscript describes a group PbS-QD photodiode measurement archive with preparation-source and date identifiers, not 1,045 curves digitized from the literature. These are measurement records, not necessarily independent devices, and fitting or example selection applies further criteria. M1/M2 were selected by similar electrical response to examine hidden shape differences. Their labels do not define a deliberately fabricated control pair. Whether they share a fabrication batch or process must be checked from the source identifiers.",
+    "module": "01"
   },
   {
     "number": 50,
-    "angle": "热旋涂工艺",
+    "angle": "PM6验证与方案比较",
     "question_cn": "PM6约降低80%和69%，热旋涂约降低65%和55%，为什么仍强调热旋涂？把两种方案结合会更好吗？",
     "question_en": "PM6 reduces the fitted leakage terms by about 80% and 69%, versus 65% and 55% for thermal spin-coating. Why emphasize the thermal route, and could combining the two improve performance?",
     "answer_cn": "首先，这些降幅来自不同体系，不能直接排名。海报中的向下箭头不是数字1：正确降幅为80%、69%、65%、55%；响应度和带宽的相对提升约为78%和64%，也不是178%和164%。热旋涂强调少一层缓冲材料及其工序，并同时改善动态响应，但尚不能声称良率一定更高。两者叠加可能互补，也可能增加阻挡或溶剂影响；应在同一结构中设置室温/热旋涂与有/无PM6的四组对照，不能把降幅相加。",
-    "answer_en": "The percentages come from different device systems and cannot be ranked directly. The poster shows downward arrows: the reductions are 80%, 69%, 65%, and 55%. Responsivity and bandwidth improve by about 78% and 64%, not 178% or 164%. Thermal processing avoids one buffer layer and its coating step while improving dynamic response, but higher yield is not established. Combining the approaches could help or introduce new barriers and solvent effects. A matched four-group comparison is needed; the percentage reductions cannot simply be added."
+    "answer_en": "The percentages come from different device systems and cannot be ranked directly. The poster shows downward arrows: the reductions are 80%, 69%, 65%, and 55%. Responsivity and bandwidth improve by about 78% and 64%, not 178% or 164%. Thermal processing avoids one buffer layer and its coating step while improving dynamic response, but higher yield is not established. Combining the approaches could help or introduce new barriers and solvent effects. A matched four-group comparison is needed; the percentage reductions cannot simply be added.",
+    "module": "02"
   },
   {
     "number": 51,
-    "angle": "热旋涂工艺",
+    "angle": "热旋涂机理与器件性能",
     "question_cn": "为什么致密无序堆积有利？65 °C是预热基底还是恒温旋涂腔体，80 °C等更高温度会怎样？",
     "question_en": "Why can dense but disordered packing be beneficial? Is 65 °C achieved by substrate preheating or a heated spin chamber, and what happens at higher temperatures such as 80 °C?",
     "answer_cn": "无序指量子点集合体的堆积有序度，不等于量子点晶体被破坏。紧密接触与膜连续性可能改善输运，即使长程堆积有序度下降。方法部分明确写的是基底预热并稳定1 min，随后动态旋涂40 s，再做85 °C、10 min后退火；不能据此声称旋涂腔体恒温，或液滴全程保持65 °C。特定80 °C结果应以实际测量为准。过高温度可能加剧不均匀或局部融合，但配体损伤等机制需要额外证据。",
-    "answer_en": "Disorder refers to the QD assembly, not necessarily damage to each crystal. Better contacts and film continuity can improve transport despite reduced long-range packing order. The method specifies substrate preheating and one minute of stabilization, dynamic spin-coating for forty seconds, and subsequent annealing at 85 °C for ten minutes. It does not establish a temperature-controlled chamber or a constant droplet temperature. Results at a specific temperature such as 80 °C require actual measurements; ligand damage should not be assumed without evidence."
+    "answer_en": "Disorder refers to the QD assembly, not necessarily damage to each crystal. Better contacts and film continuity can improve transport despite reduced long-range packing order. The method specifies substrate preheating and one minute of stabilization, dynamic spin-coating for forty seconds, and subsequent annealing at 85 °C for ten minutes. It does not establish a temperature-controlled chamber or a constant droplet temperature. Results at a specific temperature such as 80 °C require actual measurements; ligand damage should not be assumed without evidence.",
+    "module": "03"
   },
   {
     "number": 52,
-    "angle": "TFT成像与无创传感",
+    "angle": "成像集成与血糖传感",
     "question_cn": "高Rsh能证明横向串扰小吗？横向电导率、像素间距和MTF具体是多少？",
     "question_en": "Does a high shunt resistance prove low lateral crosstalk? What are the measured lateral conductivity, pixel pitch, and modulation-transfer performance?",
     "answer_cn": "不能把垂直器件拟合得到的Rsh直接换算成薄膜横向电导率。像素间距需要芯片版图，横向输运需要专门的面内测量；64 × 64只说明像素数。内建纵向电场有利于提取是合理物理图像，但海报没有量化纵横电场比，也没有给出MTF或串扰矩阵，因此不能凭此报具体数值。现有图像支持演示条件下能分辨图案。更小间距需要通过局域照明、邻像素响应及MTF重新验证。",
-    "answer_en": "A shunt resistance fitted from a vertical device cannot be directly converted into lateral film conductivity. Pixel pitch requires the chip layout, and lateral transport requires an in-plane measurement; 64 × 64 specifies only the pixel count. A vertical built-in field is a plausible extraction picture, but the poster does not quantify field ratios or provide an MTF or crosstalk matrix. The images demonstrate pattern resolution under the tested conditions. Smaller pitches require localized illumination, neighboring-pixel, and modulation-transfer measurements."
+    "answer_en": "A shunt resistance fitted from a vertical device cannot be directly converted into lateral film conductivity. Pixel pitch requires the chip layout, and lateral transport requires an in-plane measurement; 64 × 64 specifies only the pixel count. A vertical built-in field is a plausible extraction picture, but the poster does not quantify field ratios or provide an MTF or crosstalk matrix. The images demonstrate pattern resolution under the tested conditions. Smaller pitches require localized illumination, neighboring-pixel, and modulation-transfer measurements.",
+    "module": "04"
   },
   {
     "number": 53,
-    "angle": "TFT成像与无创传感",
+    "angle": "成像集成与血糖传感",
     "question_cn": "指尖血糖检测的受试者数量是多少？是否覆盖高低血糖区间，校准能否跨受试者复现？",
     "question_en": "How many subjects were included in fingertip glucose sensing? Were hypoglycemic and hyperglycemic ranges covered, and does the calibration generalize across subjects?",
     "answer_cn": "论文描述的是进食后不同时间点的人体指尖检测，但现有海报不能确定独立受试者数量、校准和测试集划分。像素数、帧数与时间点数不能当作受试者数量。图示范围有限，不能据此宣称已经验证临床低血糖和高血糖条件。双波长比值可减少部分共同漂移，但不能说消除了光程、温度或个体差异。小于5%应表述为所测条件下的初步一致性；跨受试者及更宽范围的独立验证仍是必要后续工作。",
-    "answer_en": "The paper describes fingertip measurements at different times after food intake, but the poster does not establish the number of independent subjects or the calibration/test split. Pixel, frame, and time-point counts are not subject counts. The limited plotted range does not establish validation in clinical hypoglycemia or hyperglycemia. The ratio reduces some common drift without eliminating path-length, temperature, or individual effects. The deviation below five percent is a preliminary consistency result; independent validation across subjects and a wider range remains necessary."
+    "answer_en": "The paper describes fingertip measurements at different times after food intake, but the poster does not establish the number of independent subjects or the calibration/test split. Pixel, frame, and time-point counts are not subject counts. The limited plotted range does not establish validation in clinical hypoglycemia or hyperglycemia. The ratio reduces some common drift without eliminating path-length, temperature, or individual effects. The deviation below five percent is a preliminary consistency result; independent validation across subjects and a wider range remains necessary.",
+    "module": "04"
+  },
+  {
+    "number": 54,
+    "angle": "论文与图示",
+    "question_cn": "暗电流诊断这篇论文主要做了什么，贡献是什么？",
+    "question_en": "What does the dark-current diagnosis paper do, and what is its main contribution?",
+    "answer_cn": "论文利用整条暗态J–V曲线比较器件随偏压变化的响应。某个偏压下电流接近，不代表中间形状或等效电流组成相同。作者采用三项模型，再用删项重拟合和参数敏感性分析检查哪些响应对描述曲线是必要的。贡献在于分析方法与证据检验；仅凭拟合不能确定具体微观机制。",
+    "answer_en": "The paper compares device responses over complete dark J–V curves. Similar currents at one bias do not imply similar intermediate shapes or equivalent current contributions. It uses a three-term model, term-removal refits, and parameter sensitivity checks to examine which responses are needed. The contribution is an analysis and evidence-testing framework; fitting alone does not identify a microscopic mechanism.",
+    "module": "01"
+  },
+  {
+    "number": 55,
+    "angle": "论文与图示",
+    "question_cn": "只有M1/M2存在这种差异吗？单点不能代表整条曲线，这一点有什么新意？",
+    "question_en": "Is this difference unique to M1/M2? What is new beyond saying that one point cannot represent a full curve?",
+    "answer_cn": "M1/M2是配对示例，不是唯一对象。论文还展示A/B/C等记录，并分析16条代表性曲线，其中8条按文中共同标准需要保留全部三项。M1/M2只能证明相似概括指标可隐藏中间差异，不能给出这种配对现象在全库中的发生率。单点的局限本身不新颖；真正要检验的是分量分析相对直接比较完整曲线增加了哪些稳定、可信的信息。",
+    "answer_en": "M1/M2 are a paired example, not the only records examined. The paper also presents A/B/C responses and analyzes sixteen representative curves, eight of which require all three terms under the reported common criteria. The pair demonstrates hidden intermediate differences, not their prevalence across the archive. The key contribution must be stable, useful information added by component analysis beyond simply inspecting complete curves.",
+    "module": "01"
+  },
+  {
+    "number": 56,
+    "angle": "论文与图示",
+    "question_cn": "散点图中的1,045个点，等于1,045个独立器件吗？",
+    "question_en": "Do the 1,045 points represent 1,045 independent devices?",
+    "answer_cn": "不等于。这里是1,045条暗态J–V测量记录，每个散点对应一条记录，可能包含同一器件的重复测量。不能把记录数直接写成独立器件数；独立样本数量和重复测量结构要查原始标识。",
+    "answer_en": "No. These are 1,045 dark J–V measurement records, with each plotted point representing one record. Repeated measurements of the same device may be included. The number of independent devices and the repeat-measurement structure require the original identifiers.",
+    "module": "01"
+  },
+  {
+    "number": 57,
+    "angle": "论文与图示",
+    "question_cn": "M1、M2、A、B、C分别代表什么？和源码里的M1/M2是同一个意思吗？",
+    "question_en": "What do M1, M2, A, B, and C mean? Are they the same as model-stage labels in the code?",
+    "answer_cn": "它们是选出的测量曲线编号，不是材料或机制名称。M1/M2用于比较概括指标接近但中间曲线不同的记录；A的结响应在分析区间内始终最大，B由结响应主导转向欧姆主导，C的非欧姆响应随反偏增强而更重要。按你补充的信息，所讨论的M1/M2来自相同结构器件，但这不自动说明同批制备。源码中的模型阶段编号即使也叫M1/M2，也与论文样本编号无关。",
+    "answer_en": "They label selected measurement records, not materials or mechanisms. M1/M2 illustrate similar summary metrics with different intermediate shapes. A remains junction-dominated in the analyzed range; B changes from junction to Ohmic dominance; C shows an increasing non-Ohmic contribution with reverse bias. The presenter has clarified that the discussed M1/M2 devices share a structure, which does not establish a shared batch. Similarly named model stages in the code are separate labels.",
+    "module": "01"
+  },
+  {
+    "number": 58,
+    "angle": "论文与图示",
+    "question_cn": "Fig. 1散点图的横纵轴是什么意思？−0.1 V在哪里用到？",
+    "question_en": "What do the axes of the Fig. 1 scatter plot mean, and where does −0.1 V enter?",
+    "answer_cn": "横轴为log10(abs(J(−0.5 V)))，电流密度以A/cm²计。例如−6对应10的负6次方A/cm²，越往右电流越大。纵轴为g = log10(abs(J(−0.5 V)) / abs(J(−0.1 V)))。g为0、1、2分别表示两端幅值之比为1、10、100；abs表示取绝对值。−0.1 V来自g的定义。M1/M2在图上接近，只说明两个概括指标接近，不说明完整曲线相同。",
+    "answer_en": "The horizontal axis is the base-ten logarithm of the current-density magnitude at −0.5 V, expressed in amperes per square centimeter. A value of minus six corresponds to ten to the minus sixth. The vertical coordinate is the base-ten logarithm of the magnitude ratio between −0.5 V and −0.1 V. Values of zero, one, and two mean ratios of one, ten, and one hundred. Nearby points therefore need not have identical full curves.",
+    "module": "01"
+  },
+  {
+    "number": 59,
+    "angle": "论文与图示",
+    "question_cn": "归一化J–V曲线怎么算？为什么端点都等于1，1.54倍又是什么意思？",
+    "question_en": "How is the normalized J–V curve calculated? Why is the endpoint one, and what does the factor 1.54 mean?",
+    "answer_cn": "归一化电流 = abs(J(V)) / abs(J(−0.5 V))。它表示当前电流幅值相对于各自−0.5 V端点的比例，所以每条曲线在该端点都为1。论文报告M1/M2在−0.5 V时电流几乎相同，但在−0.3 V时M2为M1的1.54倍。归一化图比较的是增长过程；单看归一化图无法恢复绝对电流，仍要结合原始曲线。",
+    "answer_en": "Each current magnitude is divided by that curve’s own magnitude at −0.5 V, so the normalization endpoint is one. The paper reports nearly equal endpoint currents but an M2 current 1.54 times the M1 current at −0.3 V. Normalization compares the growth pattern; absolute currents still require the original curves.",
+    "module": "01"
+  },
+  {
+    "number": 60,
+    "angle": "模型与参数",
+    "question_cn": "为什么总电流可以分成三项？电流守恒证明了这个模型吗？",
+    "question_en": "Why can total current be written as three terms? Does current conservation prove the model?",
+    "answer_cn": "总电流 = 结电流 + 欧姆漏电 + 非欧姆漏电。这是具有物理动机的等效电路假设：三条并联支路承受相同内部电压，因此支路电流相加。它们分别描述二极管式整流、近似线性漏电和额外非线性响应。电流守恒解释了为什么相加，但不能证明真实器件恰好只有三种过程。适用性仍须通过实验和模型比较检验。",
+    "answer_en": "The model writes total current as junction current plus Ohmic leakage plus non-Ohmic leakage. It assumes parallel branches sharing one internal voltage, so their currents add. The terms describe rectification, approximately linear leakage, and additional nonlinear response. Current conservation explains addition, but does not prove that exactly three microscopic processes exist. Model suitability still requires experimental and comparative tests.",
+    "module": "01"
+  },
+  {
+    "number": 61,
+    "angle": "模型与参数",
+    "question_cn": "网站采用哪些公式？内部电压、温度、串联电阻的含义是什么？",
+    "question_en": "What equations does the website use, and what do internal voltage, temperature, and series resistance mean?",
+    "answer_cn": "结电流 = J0 × [exp(q × U / (n × kB × T)) − 1]\n欧姆漏电 = U / Rsh\n非欧姆漏电 = k × abs(U)^m × sign(U)\n总电流J = 上面三项之和\n内部电压U = 外加电压V − J × Rs\nT为绝对温度，q为元电荷，kB为玻尔兹曼常数，与拟合系数k不同。exp(x)表示e的x次方，sign保留正负方向。Rs是共同串联电阻，不是第四条电流支路。用电流密度拟合时，Rs/Rsh单位为Ω·cm²；用电流拟合时，电阻及系数的单位必须相应改变。",
+    "answer_en": "Junction current equals J zero times the exponential of q U divided by n k B T, minus one. Ohmic leakage equals U divided by shunt resistance. Non-Ohmic leakage equals k times the absolute value of U raised to m, multiplied by the sign of U. Total current density is their sum; internal voltage is applied voltage minus total current density times series resistance. Temperature is absolute, and the Boltzmann constant differs from the fitted coefficient k. Series resistance is not a fourth parallel branch. With current density, resistances are area-normalized in ohm square centimeters.",
+    "module": "01"
+  },
+  {
+    "number": 62,
+    "angle": "模型与参数",
+    "question_cn": "拟合到底在调整什么？三个电流分量是分别测出来的吗？",
+    "question_en": "What does fitting adjust? Are the three current components measured separately?",
+    "answer_cn": "仪器只测总电流，三个分量由模型计算。固定n、m时，主要调整J0、Rs、Rsh和k：J0控制结电流尺度；Rs改变内部压降；Rsh越小，欧姆项通常越大；k控制非欧姆项尺度。程序从参数起点计算所有电压下的总响应，与实测比较，再反复调整。它寻找能描述整条曲线的参数组合，不是在仪器上直接分离三条电流。",
+    "answer_en": "The instrument measures total current, while the model calculates the components. With n and m fixed, fitting mainly adjusts the junction scale, series resistance, shunt resistance, and nonlinear coefficient. These set the branch magnitudes and internal voltage. The program repeatedly predicts the full response, compares it with measurements, and updates parameters. This is model-based decomposition, not three independently measured currents.",
+    "module": "01"
+  },
+  {
+    "number": 63,
+    "angle": "模型与参数",
+    "question_cn": "网站具体使用什么优化算法？多起点和内部电压求解有什么作用？",
+    "question_en": "Which optimization algorithm does the website use, and why are multiple starts and internal-voltage solvers needed?",
+    "answer_cn": "按你提供的源码解读，核心是带参数边界的非线性最小二乘，调用SciPy的TRF信赖域反射算法。还包括多起点、正参数对数空间搜索，以及诊断模式下的n/m扫描和必要时的连续优化。每次计算需用牛顿迭代、Brent等方法求内部电压。残差采用保留符号的近似对数变换，候选策略可能结合分区权重或稳健损失。这些方法降低搜索困难，但不保证全局最优或分量唯一；实际功能以所用网站版本为准。",
+    "answer_en": "In the supplied code explanation, the core is bounded nonlinear least squares using SciPy’s trust-region reflective algorithm. It combines multiple starts, logarithmic searches for positive parameters, and diagnostic scans or continuous refinement of n and m. Newton and Brent methods solve the internal-voltage equation during evaluation. Residuals use a signed, approximately logarithmic transformation, with candidate weighting or robust-loss strategies. These methods aid optimization without guaranteeing a global optimum or unique components; implementation details depend on the website version.",
+    "module": "01"
+  },
+  {
+    "number": 64,
+    "angle": "模型与参数",
+    "question_cn": "n、m分别是什么？默认值就是材料常数吗，程序怎样选择它们？",
+    "question_en": "What are n and m? Are their defaults material constants, and how are they selected?",
+    "answer_cn": "n是二极管理想因子，控制结响应的指数形状；m是非欧姆幂律指数。按所提供源码说明，默认n = 1.4、m = 2.4。快速拟合通常固定当前值；诊断模式尝试不同组合，并为每组重新优化其余参数，必要时再连续优化。默认值不是独立测得的材料常数。有外部依据时可固定，否则要报告可接受范围。n主要受正向结响应约束，m受非线性响应约束，不能直接用混合总电流的斜率替代。",
+    "answer_en": "The ideality factor n controls the exponential junction response; m controls the nonlinear power-law shape. The supplied code explanation gives defaults of 1.4 and 2.4. Quick fitting generally fixes the current values, while diagnostic fitting tests combinations and reoptimizes the other parameters, with possible continuous refinement. Defaults are not independently measured material constants. External evidence can justify fixed values; otherwise acceptable ranges should be assessed. Slopes of mixed total current do not directly give either exponent.",
+    "module": "01"
+  },
+  {
+    "number": 65,
+    "angle": "模型与参数",
+    "question_cn": "改n、m是不是人为决定分量占比？自动优化全部参数就一定正确吗？",
+    "question_en": "Does choosing n and m predetermine the component fractions? Is fully automatic optimization necessarily correct?",
+    "answer_cn": "固定n、m限定了分量的形状，确实引入假设，但没有直接指定占比，因为其余参数仍能调整。改动后，总拟合可能变差、改善，或几乎不变而占比明显变化。因此不能任意指定n/m后把占比当作真实组成，也不能认为全部自动优化就必然正确。要比较合理范围内的重拟合结果，区分稳定趋势和无法确定的分配。",
+    "answer_en": "Fixing n and m imposes branch-shape assumptions, but does not directly prescribe fractions because other parameters can adjust. Changing them may worsen or improve the total fit, or leave it almost unchanged while substantially redistributing components. Neither arbitrary fixed values nor fully automatic optimization guarantees the true decomposition. Refits over justified ranges are needed to distinguish stable trends from unresolved allocations.",
+    "module": "01"
+  },
+  {
+    "number": 66,
+    "angle": "模型与参数",
+    "question_cn": "电流分量占比怎么算？合计漏电在什么条件下可以报告？",
+    "question_en": "How are component fractions calculated, and when can combined leakage be reported?",
+    "answer_cn": "某分量占比 = 该分量电流幅值 / 三个分量幅值之和 × 100%。占比由整套参数、温度与电压共同决定。合计漏电 = 欧姆漏电 + 非欧姆漏电。如果两种漏电之间无法稳定拆开，但它们的合计以及与结电流的划分稳定，可以报告合计及其范围。如果结电流也会被重新分配，合计漏电同样不确定。占比和合计都是模型计算量。",
+    "answer_en": "A component fraction is its current magnitude divided by the sum of all three component magnitudes, expressed as a percentage. It depends on the full parameter set, voltage, and temperature. Combined leakage is the sum of Ohmic and non-Ohmic leakage. It may be reportable when its split from junction current is stable even if the two leakage terms are interchangeable. If junction current also redistributes, combined leakage is uncertain as well. These quantities are model outputs.",
+    "module": "01"
+  },
+  {
+    "number": 67,
+    "angle": "可信度与物理解释",
+    "question_cn": "平均误差和最大相对误差针对什么？怎样公平比较不同拟合？",
+    "question_en": "What do mean and maximum relative errors measure, and how should fits be compared fairly?",
+    "answer_cn": "它们比较拟合总电流与实测总电流，不是分量真值。逐点相对误差约为abs(拟合总电流 − 实测总电流) / abs(实测总电流) × 100%。平均值反映整体，最大值反映最差点；按所提供程序说明，零电压和低于噪声阈值的点通常排除，具体看实现。比较时需统一范围、温度、权重、边界和误差统计规则，并检查残差结构、边界控制和重复拟合稳定性。很小的总误差不证明分量正确。",
+    "answer_en": "These errors compare fitted and measured total current, not component ground truth. Pointwise relative error is the absolute current difference divided by the measured magnitude, expressed as a percentage. The mean summarizes overall agreement and the maximum identifies the worst included point. Zero-bias or below-threshold points may be excluded according to the implementation. Fair comparisons require matched ranges, temperature, weights, bounds, and reporting rules. Residual patterns and repeat-fit stability also matter; low total error does not establish correct components.",
+    "module": "01"
+  },
+  {
+    "number": 68,
+    "angle": "可信度与物理解释",
+    "question_cn": "怎样判断n、m真的被数据约束？全电压、多起点能证明唯一性吗？",
+    "question_en": "How can we tell whether data constrain n and m? Do full-range fitting and multiple starts prove uniqueness?",
+    "answer_cn": "返回一个数值只表示找到了一个解。如果很窄的n/m范围才可解释数据，参数较易确定；若许多组合同样好，则未被唯一确定。全电压、多起点一致和边界约束都不是唯一性证明。例如m = 1时，欧姆项 + 非欧姆项 = (1/Rsh + k) × U，两项完全同形；k接近零时m也几乎不受约束。逐个扰动四个系数不能证明六参数联合唯一。应固定某个参数后重新优化其余参数，检查可接受解集与占比范围。",
+    "answer_en": "A returned value only identifies one solution. A narrow acceptable exponent range suggests stronger constraints; many equally good combinations imply ambiguity. Full-range fitting, matching multiple starts, and bounds do not prove uniqueness. When m equals one, the linear and nonlinear branches have exactly the same voltage dependence. When the nonlinear coefficient approaches zero, m becomes weakly constrained. Perturbing four coefficients individually does not prove joint uniqueness of six parameters. Profile refits should reoptimize the remaining parameters and examine acceptable fractions.",
+    "module": "01"
+  },
+  {
+    "number": 69,
+    "angle": "可信度与物理解释",
+    "question_cn": "总曲线几乎一样但分量不同，该选哪一组？怎样提高分量可信度？",
+    "question_en": "If similar total fits give different components, which should be selected, and how can confidence improve?",
+    "answer_cn": "不能只因误差略低就选定某组分量。应保留与测量精度相符的候选结果，并查看占比范围：若主导分量始终相同，可以报告稳定趋势；若主导项都能反转，现有数据无法确定分量。需要多温度J–V、选择性对照器件或输运与界面表征提供独立约束。多条件联合分析也必须使用有依据的共享关系，不能对每条曲线任意调参。",
+    "answer_en": "A slightly lower error is not enough to select one physical decomposition. Retain candidates consistent with measurement precision and examine their fraction ranges. A persistent dominant branch supports a stable trend; reversal of dominance indicates unresolved components. Independent constraints can come from temperature-dependent curves, selective controls, and transport or interface measurements. Joint analysis must use justified shared relationships, rather than freely adjusting every curve.",
+    "module": "01"
+  },
+  {
+    "number": 70,
+    "angle": "可信度与物理解释",
+    "question_cn": "m到底是多少？m接近2就是SCLC，m = 2.4就是TAT吗？",
+    "question_en": "What is m in practice? Does a value near two prove SCLC, or does 2.4 prove TAT?",
+    "answer_cn": "按所提供源码解读，默认m为2.4，扫描候选包括1.8、2.0、2.4、2.8、3.2，必要时可在指定范围连续优化。具体样本要看该次保存记录，默认值和某次拟合值不是同一回事。在当前模型中m是半经验电压指数。SCLC需单载流子、注入和厚度标度等依据；TAT需适用隧穿模型及温度、电场、陷阱证据。m接近2或等于2.4都不能独立证明这些机制。",
+    "answer_en": "The supplied code explanation gives a default m of 2.4 and scan candidates of 1.8, 2.0, 2.4, 2.8, and 3.2, with possible continuous refinement. A sample-specific value must come from its saved fit, not the default. Here m is a semi-empirical voltage exponent. Space-charge-limited current requires appropriate single-carrier, injection, and thickness evidence; trap-assisted tunneling requires a suitable model and temperature, field, and trap evidence. Neither a value near two nor 2.4 proves a mechanism.",
+    "module": "01"
+  },
+  {
+    "number": 71,
+    "angle": "可信度与物理解释",
+    "question_cn": "Fig. 1 d/e删掉了分量吗？f的三根柱子是三种电流占比吗？",
+    "question_en": "Were terms removed in Fig. 1 d/e? Do the three bars in panel f represent current fractions?",
+    "answer_cn": "按原文描述，d/e展示完整模型的拟合、分量和占比；f比较完整模型与分别删项后重新拟合的误差。完整模型允许三项参与，不要求每项都显著，因此某项不明显不表示一定删掉，也不能仅凭图判断它严格为零。f的三根柱子是三种拟合方案的误差，不是三种电流占比。网站诊断模式可能推荐简化模型，具体导出结果要查运行记录。",
+    "answer_en": "In the paper description, panels d/e show full-model fits, components, and fractions. Panel f compares fitting errors for the full model and term-removal refits. Including three terms does not require all three to be significant, so an inconspicuous branch is not necessarily removed or exactly zero. The bars represent errors of model alternatives, not current fractions. A website diagnostic run may recommend a reduced model; its saved record determines what was exported.",
+    "module": "01"
+  },
+  {
+    "number": 72,
+    "angle": "可信度与物理解释",
+    "question_cn": "相同器件结构，为什么一个欧姆项大、另一个非欧姆项大？",
+    "question_en": "Why can devices with the same structure have different dominant leakage terms?",
+    "answer_cn": "相同层结构不保证成膜、局部缺陷、配体交换、界面或接触状态完全相同，测试条件与历史也可能影响曲线。但分量变化还可能来自参数补偿，不能直接解释成某类缺陷数量不同。会场可回答：两条曲线需要不同等效响应组合来描述，删项和敏感性分析检查这一判断；具体结构或缺陷原因仍需独立表征。",
+    "answer_en": "The same layer stack does not ensure identical film uniformity, defects, ligand exchange, interfaces, contacts, or measurement history. However, parameter compensation can also redistribute fitted contributions. A careful answer is that the curves require different equivalent response combinations, tested by term-removal and sensitivity analysis. Assigning those differences to specific defects still requires independent characterization.",
+    "module": "01"
+  },
+  {
+    "number": 73,
+    "angle": "网站使用与研究协议",
+    "question_cn": "电压区间权重是什么？改权重会改变占比吗，哪些模式使用它？",
+    "question_en": "What do voltage-region weights do? Can they change component fractions, and which modes use them?",
+    "answer_cn": "权重改变拟合目标对各区间误差的重视程度，不直接指定占比。1为常规，大于1更重视，0到1减弱，0表示不参与该加权目标，但不一定从图或误差统计中消失。所提供默认分区为：反偏V < −0.05 V；近零−0.05到+0.05 V；正偏+0.05 < V ≤ +0.3 V；高正偏V > +0.3 V。快速拟合不使用这组分区权重，诊断模式把加权策略作为候选之一。改变权重可能改变参数和占比，跨器件比较应统一规则；以实际版本为准。",
+    "answer_en": "Weights change how strongly voltage regions contribute to an objective, rather than directly setting fractions. One is standard, larger values emphasize a region, and zero excludes it from that weighted objective, not necessarily from plots or error reports. The supplied defaults separate reverse bias below −0.05 V, near zero, forward bias up to +0.3 V, and higher forward bias. Quick fitting does not use these regional weights; diagnostic fitting includes weighted candidates. Changing weights can change fitted fractions, so comparisons require consistent rules and version checks.",
+    "module": "01"
+  },
+  {
+    "number": 74,
+    "angle": "网站使用与研究协议",
+    "question_cn": "网站的研究协议是什么？普通常温暗态J–V能直接用SCLC、Arrhenius或PF协议吗？",
+    "question_en": "What are the research protocols? Can an ordinary room-temperature dark J–V curve establish SCLC, Arrhenius, or Poole–Frenkel behavior?",
+    "answer_cn": "研究协议是有专门数据要求的分析流程。SCLC厚度序列需要不同厚度的单载流子器件，结合模型假设检验标度与估计迁移率；Arrhenius分析需要多温度、相同选定条件下的电流，得到有效激活能；Poole–Frenkel温度序列需要多温度反偏J–V及膜厚；暗态/光照配对协议需要同器件、同温度的配对曲线，用于有约束的联合分析。只有一条常温暗态曲线时先做普通拟合。切换菜单不能自动证明机制或保证分量准确。",
+    "answer_en": "Research protocols are workflows with specific data requirements. An SCLC thickness series needs single-carrier devices of different thicknesses. Arrhenius analysis needs currents at comparable conditions across temperatures. A Poole–Frenkel temperature series requires multiple-temperature reverse-bias curves and film thickness. Paired dark and illuminated analysis needs matched curves from the same device and temperature. A single room-temperature dark curve should start with ordinary fitting. Selecting a protocol does not itself prove a mechanism or guarantee component accuracy.",
+    "module": "01"
+  },
+  {
+    "number": 75,
+    "angle": "网站使用与研究协议",
+    "question_cn": "为什么说网站可用于PD、LED和PV？同一公式能覆盖所有器件和光照条件吗？",
+    "question_en": "Why is the website described as useful for PDs, LEDs, and PV devices? Can one equation cover every device and illumination condition?",
+    "answer_cn": "这些器件具有部分共同的二极管与寄生输运特征，因此可以共享分析框架，但不是所有结构都满足同一假设。参数范围、主导机制和数据条件要分别判断。这里讨论的三项表达式针对暗态电学响应；有光生电流的曲线需要适用的光照模型或配对协议，不能把暗态公式不加修改地用于所有光照数据。可适配不等于已在所有体系验证。",
+    "answer_en": "These devices share some diode and parasitic-transport features, so an analysis framework can be reusable. However, device structure, parameter ranges, and dominant mechanisms must be checked. The three-term expression discussed here describes dark electrical response. Illuminated curves require an appropriate photocurrent model or paired protocol; the dark expression should not be applied unchanged to every illuminated device. Potential applicability is not universal validation.",
+    "module": "01"
+  },
+  {
+    "number": 76,
+    "angle": "网站使用与研究协议",
+    "question_cn": "第一次使用要准备什么数据？只有反偏、只有三个点，或者单位不一致可以吗？",
+    "question_en": "What data should a first-time user prepare? Are reverse-only curves or three points sufficient, and how important are units?",
+    "answer_cn": "先确认当前上传模板，准备外加电压与对应的暗态电流或电流密度，并记录温度、面积、扫描方向和等待条件。完整诊断通常需要合理正反偏范围，只有反偏时正向二极管及Rs可能约束不足；三点可初筛，不能唯一确定完整多参数模型。电流与电流密度、面积和单位必须匹配，否则参数及跨器件比较会失真。具体文件类型与列顺序以当前网站模板为准，不应凭印象承诺。",
+    "answer_en": "Check the current upload template and prepare applied voltage with dark current or current density, plus temperature, area, scan direction, and settling conditions. A suitable forward and reverse range generally constrains more of the model. Reverse-only data may poorly constrain junction and series-resistance parameters; three points cannot uniquely determine the complete model. Current, current density, area, and units must be consistent. Accepted file types and column order should be checked in the live template.",
+    "module": "01"
+  },
+  {
+    "number": 77,
+    "angle": "网站使用与研究协议",
+    "question_cn": "什么情况下不应该直接相信网站拟合？",
+    "question_en": "When should a website fit not be trusted directly?",
+    "answer_cn": "明显滞后、未达到稳态、接近噪声底、击穿、强离子迁移或多个未建模输运转变，都可能使当前静态模型不适用。边界命中、不同初值出现相近误差但不同分量、残差有系统结构，也需要警惕。应先排查测量与模型，再决定是否扩大实验；“程序收敛”只说明数值过程结束，不代表物理解释成立。",
+    "answer_en": "Strong hysteresis, non-steady measurements, noise-floor signals, breakdown, ion migration, or unmodeled transport transitions can invalidate a static model. Boundary-limited parameters, similar-error solutions with different components, and structured residuals are warning signs. Check the measurement and model before expanding interpretation. Numerical convergence alone does not validate a physical explanation.",
+    "module": "01"
+  },
+  {
+    "number": 78,
+    "angle": "网站使用与研究协议",
+    "question_cn": "这个网站相比Origin或自己写Python，优势是什么？",
+    "question_en": "What does the website offer compared with Origin or a custom Python fit?",
+    "answer_cn": "主要优势是把模型设置、拟合、分量展示和诊断流程组织在一起，减少重复配置，便于交流和复现分析条件。它不因采用网页形式就比Origin或Python更准确。公平比较要使用相同方程、数据、目标函数和边界；分析可信度仍由数据质量、模型适用性及独立验证决定。",
+    "answer_en": "Its main benefit is a coordinated workflow for model setup, fitting, component display, and diagnostics, reducing repeated configuration and helping communicate analysis conditions. A web interface is not inherently more accurate than Origin or Python. Fair comparisons require the same equations, data, objective, and bounds. Reliability still depends on data quality, model suitability, and independent validation.",
+    "module": "01"
+  },
+  {
+    "number": 79,
+    "angle": "网站使用与研究协议",
+    "question_cn": "网站免费吗？上传数据是否保存？结果怎样导出和引用，未发表数据能上传吗？",
+    "question_en": "Is the site free? Are uploads stored, and how should results be exported and cited? What about unpublished data?",
+    "answer_cn": "可以按当前介绍称其为免费在线拟合工具，但免费范围、数据处理位置、保存与删除规则、导出格式和推荐引用，必须以实际页面或维护者确认的信息为准。当前问答没有核实后台数据流，不应承诺“仅本地计算”“绝不保存”或“自动删除”。涉及未发表数据时，先确认这些规则。用于论文时应报告模型、软件版本、输入条件、边界和拟合策略，并按网站及相关论文要求引用。",
+    "answer_en": "The current introduction describes a free online fitting tool. Its free scope, processing location, retention and deletion rules, export formats, and recommended citation must be checked with the live site or maintainer. This Q&A has not audited the backend and should not promise local-only processing, no storage, or automatic deletion. Confirm those terms before uploading unpublished data. Publications should document the model, software version, input conditions, bounds, fitting strategy, and appropriate references.",
+    "module": "01"
   }
 ]
